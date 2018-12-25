@@ -17,6 +17,10 @@
 
     <properties>
         <java.version>1.8</java.version>
+        <itext7-core.version>7.1.4</itext7-core.version>
+        <html2pdf.version>2.1.1</html2pdf.version>
+        <httpclient.version>4.5.1</httpclient.version>
+        <guava.version>16.0</guava.version>
     </properties>
 
     <dependencies>
@@ -34,32 +38,26 @@
         <dependency>
             <groupId>com.itextpdf</groupId>
             <artifactId>itext7-core</artifactId>
-            <version>7.1.4</version>
+            <version>${itext7-core.version}</version>
             <type>pom</type>
         </dependency>
 
         <dependency>
             <groupId>com.itextpdf</groupId>
             <artifactId>html2pdf</artifactId>
-            <version>2.1.1</version>
+            <version>${html2pdf.version}</version>
         </dependency>
 
         <dependency>
             <groupId>org.apache.httpcomponents</groupId>
             <artifactId>httpclient</artifactId>
-            <version>4.5.1</version>
-        </dependency>
-
-        <dependency>
-            <groupId>com.alibaba</groupId>
-            <artifactId>fastjson</artifactId>
-            <version>1.2.23</version>
+            <version>${httpclient.version}</version>
         </dependency>
 
         <dependency>
             <groupId>com.google.guava</groupId>
             <artifactId>guava</artifactId>
-            <version>16.0</version>
+            <version>${guava.version}</version>
         </dependency>
     </dependencies>
 

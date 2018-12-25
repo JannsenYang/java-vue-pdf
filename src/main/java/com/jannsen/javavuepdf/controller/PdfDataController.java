@@ -1,13 +1,16 @@
 package com.jannsen.javavuepdf.controller;
 
 
-import com.alibaba.fastjson.JSON;
 import com.jannsen.javavuepdf.utils.CommonUtils;
+import com.jannsen.javavuepdf.utils.JacksonUtils;
 import com.jannsen.javavuepdf.vo.Module1Page1Vo;
 import com.jannsen.javavuepdf.vo.Module1Page2Vo;
 import com.jannsen.javavuepdf.vo.Module2Page1Vo;
 import com.jannsen.javavuepdf.vo.Module2Page2Vo;
-import org.springframework.web.bind.annotation.*;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
 
 /**
  * nuxt服务请求返回业务数据
@@ -24,28 +27,28 @@ public class PdfDataController {
         // 通过id查询数据库获取数据
 
 
-        Module1Page1Vo module1Page1Vo = JSON.parseObject(CommonUtils.getFileText( this.getClass().getResource("/mock-module1page1.json").getPath()), Module1Page1Vo.class);
+        Module1Page1Vo module1Page1Vo = JacksonUtils.readValue(CommonUtils.getFileText(this.getClass().getResource("/mock-module1page1.json").getPath()), Module1Page1Vo.class);
         module1Page1Vo.setId(id);
         return module1Page1Vo;
     }
 
     @GetMapping("/module1Page2/{id}")
     public Module1Page2Vo module1Page2(@PathVariable String id) {
-        Module1Page2Vo module1Page2Vo = JSON.parseObject(CommonUtils.getFileText(this.getClass().getResource("/mock-module1page2.json").getPath()), Module1Page2Vo.class);
+        Module1Page2Vo module1Page2Vo = JacksonUtils.readValue(CommonUtils.getFileText(this.getClass().getResource("/mock-module1page2.json").getPath()), Module1Page2Vo.class);
         module1Page2Vo.setId(id);
         return module1Page2Vo;
     }
 
     @GetMapping("/module2Page1/{id}")
     public Module2Page1Vo module2Page1(@PathVariable String id) {
-        Module2Page1Vo module2Page1Vo = JSON.parseObject(CommonUtils.getFileText(this.getClass().getResource("/mock-module2page1.json").getPath()), Module2Page1Vo.class);
+        Module2Page1Vo module2Page1Vo = JacksonUtils.readValue(CommonUtils.getFileText(this.getClass().getResource("/mock-module2page1.json").getPath()), Module2Page1Vo.class);
         module2Page1Vo.setId(id);
         return module2Page1Vo;
     }
 
     @GetMapping("/module2Page2/{id}")
     public Module2Page2Vo module2Page2(@PathVariable String id) {
-        Module2Page2Vo module2Page2Vo = JSON.parseObject(CommonUtils.getFileText(this.getClass().getResource("/mock-module2page2.json").getPath()), Module2Page2Vo.class);
+        Module2Page2Vo module2Page2Vo = JacksonUtils.readValue(CommonUtils.getFileText(this.getClass().getResource("/mock-module2page2.json").getPath()), Module2Page2Vo.class);
         module2Page2Vo.setId(id);
         return module2Page2Vo;
     }
