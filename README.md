@@ -50,7 +50,7 @@
 
 * 访问 http://localhost:8080/java-vue-pdf/index.html 输入ID点击下载pdf 或访问 http://localhost:3000/module1/page1/idxxx 直接访问页面
 
-注：项目中的图片是打码后的真实业务图片，数据为伪造
+注：项目中的图片是打码后的真实业务图片，数据为模拟，路径在src/main/resources/mock...中
 
 
 
@@ -114,4 +114,25 @@ puppeteer https://github.com/GoogleChrome/puppeteer 可以在node端模拟出浏
 
 ## 结语
 这只是一种解决问题的思路，后端可以不用java，前端也可以不用vue，如果帮到您了，请点个星
+
+
+
+## 截图
+* 页面代码
+
+![Image text](https://raw.githubusercontent.com/JannsenYang/java-vue-pdf/master/images/1.png)
+
+* 下载测试页面
+
+![Image text](https://raw.githubusercontent.com/JannsenYang/java-vue-pdf/master/images/2.png)
+
+* 生成出来的pdf
+
+![Image text](https://raw.githubusercontent.com/JannsenYang/java-vue-pdf/master/images/3.png)
+
+* vue页面 可直接浏览进行修改
+
+![Image text](https://raw.githubusercontent.com/JannsenYang/java-vue-pdf/master/images/4.png)
+
+      
 
