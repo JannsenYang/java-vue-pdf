@@ -1,4 +1,4 @@
-package com.jannsen.javahtmlpdf.utils;
+package com.jannsen.javavuepdf.utils;
 
 import com.google.common.collect.Lists;
 import com.itextpdf.html2pdf.ConverterProperties;

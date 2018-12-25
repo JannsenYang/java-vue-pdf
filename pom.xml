@@ -9,9 +9,9 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.jannsen</groupId>
-    <artifactId>java-html-pdf</artifactId>
+    <artifactId>java-vue-pdf</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>java-html-pdf</name>
+    <name>java-vue-pdf</name>
     <description>java转换html生成pdf成套解决方案</description>
     <packaging>jar</packaging>
 

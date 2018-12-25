@@ -1,4 +1,4 @@
-package com.jannsen.javahtmlpdf.vo.child;
+package com.jannsen.javavuepdf.vo.child;
 
 import java.io.Serializable;
 import java.math.BigDecimal;

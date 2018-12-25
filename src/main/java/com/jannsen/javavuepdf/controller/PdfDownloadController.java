@@ -1,7 +1,7 @@
-package com.jannsen.javahtmlpdf.controller;
+package com.jannsen.javavuepdf.controller;
 
 
-import com.jannsen.javahtmlpdf.utils.PdfUtils;
+import com.jannsen.javavuepdf.utils.PdfUtils;
 import org.springframework.core.io.InputStreamResource;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;

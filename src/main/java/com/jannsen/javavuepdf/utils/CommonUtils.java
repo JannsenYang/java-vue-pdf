@@ -1,4 +1,4 @@
-package com.jannsen.javahtmlpdf.utils;
+package com.jannsen.javavuepdf.utils;
 
 import java.io.BufferedReader;
 import java.io.FileReader;

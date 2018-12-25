@@ -11,53 +11,67 @@
   "createdTime": 1543979246000,
   "focusDisease": [
     {
-      "diseaseName": "原发性高血压",
-      "riskLevel": 4,
-      "value": 1.057000,
-      "detail": "脑血管、心脏、周围动静脉、主动脉"
-    },
-    {
-      "diseaseName": "鼻炎",
-      "riskLevel": 4,
-      "value": 1.030000,
-      "detail": "鼻"
-    },
-    {
       "diseaseName": "甲状腺功能减退",
       "riskLevel": 4,
+      "systemCode": "11",
       "value": 1.184000,
+      "itemDValue": 0.000000,
+      "itemType": "ALERT",
       "detail": "甲状腺"
     },
     {
-      "diseaseName": "胰岛素依赖型糖尿病",
-      "riskLevel": 4,
-      "value": 1.031000,
-      "detail": "胰岛"
+      "diseaseName": "类风湿关节炎",
+      "riskLevel": 3,
+      "systemCode": "3",
+      "value": 0.516000,
+      "itemDValue": 0.000000,
+      "itemType": "ALERT",
+      "detail": "骨骼、脊椎"
+    },
+    {
+      "diseaseName": "心律失常",
+      "riskLevel": 3,
+      "systemCode": "4",
+      "value": 0.753000,
+      "itemDValue": 0.000000,
+      "itemType": "ALERT",
+      "detail": "心脏"
+    },
+    {
+      "diseaseName": "心脏病",
+      "riskLevel": 3,
+      "systemCode": "4",
+      "value": 0.623000,
+      "itemDValue": 0.000000,
+      "itemType": "ALERT",
+      "detail": "心脏"
     },
     {
       "diseaseName": "原发性高血压",
-      "riskLevel": 4,
+      "riskLevel": 3,
+      "systemCode": "4",
       "value": 1.057000,
-      "detail": "肾上腺"
+      "itemDValue": 0.000000,
+      "itemType": "ALERT",
+      "detail": "脑血管、心脏、周围动静脉、主动脉"
     }
   ],
   "riskValueMap": {
-    "riskValue4": 75.557292,
+    "riskValue4": 64.062500,
     "riskValue5": 49.000000,
     "riskValue3": 13.270833,
     "riskValue8": 32.505208,
     "riskValue9": 0.416667,
     "riskValue6": 17.744792,
-    "riskValue7": 39.427083,
+    "riskValue7": 34.062500,
     "riskValue10": 0.416667,
-    "riskValue11": 67.625000
+    "riskValue11": 56.911458
   },
   "diseaseItemListMap": {
     "SYSTEM_FOCUS_7": [
       {
         "diseaseName": "鼻炎",
-        "riskLevel": 4,
-        "organName": "鼻",
+        "riskLevel": 3,
         "systemCode": "7",
         "value": 1.030000,
         "itemDValue": 0.000000,
@@ -65,157 +79,142 @@
         "detail": "鼻"
       },
       {
-        "diseaseName": "C反应蛋白",
-        "riskLevel": 4,
-        "organName": "气管",
+        "diseaseName": "气管炎",
+        "riskLevel": 2,
         "systemCode": "7",
-        "value": 0.000000,
+        "value": 0.350000,
         "itemDValue": 0.000000,
-        "itemType": "BIOCHEMISTRY",
-        "detail": "炎症、感染、心肌梗塞"
+        "itemType": "ALERT",
+        "detail": "气管"
       },
       {
-        "diseaseName": "白细胞",
-        "riskLevel": 4,
-        "organName": "鼻",
+        "diseaseName": "白斑症",
+        "riskLevel": 1,
         "systemCode": "7",
-        "value": 0.000000,
+        "value": 0.001422,
         "itemDValue": 0.000000,
-        "itemType": "BIOCHEMISTRY",
-        "detail": "感染、炎症、脾功能亢进、造血功能障碍"
+        "itemType": "ALERT",
+        "detail": "气管"
       },
       {
-        "diseaseName": "单核细胞",
-        "riskLevel": 4,
-        "organName": "鼻",
+        "diseaseName": "鼻部中膈偏曲",
+        "riskLevel": 1,
         "systemCode": "7",
-        "value": 0.000000,
+        "value": 0.005529,
         "itemDValue": 0.000000,
-        "itemType": "BIOCHEMISTRY",
-        "detail": "感染"
+        "itemType": "ALERT",
+        "detail": "鼻"
       },
       {
-        "diseaseName": "胆固醇",
-        "riskLevel": 4,
-        "organName": "鼻",
+        "diseaseName": "尘肺症",
+        "riskLevel": 1,
         "systemCode": "7",
-        "value": 0.000000,
+        "value": 0.002812,
         "itemDValue": 0.000000,
-        "itemType": "BIOCHEMISTRY",
-        "detail": "高脂血症、冠心病、心脑血管病"
+        "itemType": "ALERT",
+        "detail": "胸膜、肺"
       }
     ],
     "SYSTEM_FOCUS_8": [
       {
-        "diseaseName": "C反应蛋白",
-        "riskLevel": 4,
-        "organName": "前列腺",
+        "diseaseName": "膀胱肾盂炎",
+        "riskLevel": 3,
         "systemCode": "8",
-        "value": 0.000000,
+        "value": 0.869000,
         "itemDValue": 0.000000,
-        "itemType": "BIOCHEMISTRY",
-        "detail": "炎症、感染、心肌梗塞"
+        "itemType": "ALERT",
+        "detail": "膀胱、肾"
       },
       {
-        "diseaseName": "γ球蛋白",
-        "riskLevel": 4,
-        "organName": "前列腺",
+        "diseaseName": "膀胱炎",
+        "riskLevel": 3,
         "systemCode": "8",
-        "value": 0.000000,
+        "value": 0.850000,
         "itemDValue": 0.000000,
-        "itemType": "BIOCHEMISTRY",
-        "detail": "感染、肾病、自身免疫性疾病"
+        "itemType": "ALERT",
+        "detail": "膀胱"
       },
       {
-        "diseaseName": "白细胞",
-        "riskLevel": 4,
-        "organName": "前列腺",
+        "diseaseName": "慢性肾小球肾炎",
+        "riskLevel": 2,
         "systemCode": "8",
-        "value": 0.000000,
+        "value": 0.108000,
         "itemDValue": 0.000000,
-        "itemType": "BIOCHEMISTRY",
-        "detail": "感染、炎症、脾功能亢进、造血功能障碍"
+        "itemType": "ALERT",
+        "detail": "肾"
       },
       {
-        "diseaseName": "单核细胞",
-        "riskLevel": 4,
-        "organName": "前列腺",
+        "diseaseName": "膀胱疼痛综合征",
+        "riskLevel": 2,
         "systemCode": "8",
-        "value": 0.000000,
+        "value": 0.434000,
         "itemDValue": 0.000000,
-        "itemType": "BIOCHEMISTRY",
-        "detail": "感染"
+        "itemType": "ALERT",
+        "detail": "膀胱"
       },
       {
-        "diseaseName": "红细胞",
-        "riskLevel": 4,
-        "organName": "前列腺",
+        "diseaseName": "多囊肾",
+        "riskLevel": 1,
         "systemCode": "8",
-        "value": 0.000000,
+        "value": 0.001997,
         "itemDValue": 0.000000,
-        "itemType": "BIOCHEMISTRY",
-        "detail": "贫血、感染"
+        "itemType": "ALERT",
+        "detail": "肾"
       }
     ],
     "SYSTEM_FOCUS_9": [
       {
-        "diseaseName": "C反应蛋白",
-        "riskLevel": 4,
-        "organName": "皮肤",
+        "diseaseName": "痤疮",
+        "riskLevel": 1,
         "systemCode": "9",
-        "value": 0.000000,
+        "value": 0.005292,
         "itemDValue": 0.000000,
-        "itemType": "BIOCHEMISTRY",
-        "detail": "炎症、感染、心肌梗塞"
+        "itemType": "ALERT",
+        "detail": "皮肤"
       },
       {
-        "diseaseName": "白细胞",
-        "riskLevel": 4,
-        "organName": "眼",
+        "diseaseName": "耳炎",
+        "riskLevel": 1,
         "systemCode": "9",
-        "value": 0.000000,
+        "value": 0.003335,
         "itemDValue": 0.000000,
-        "itemType": "BIOCHEMISTRY",
-        "detail": "感染、炎症、脾功能亢进、造血功能障碍"
+        "itemType": "ALERT",
+        "detail": "耳"
       },
       {
-        "diseaseName": "单核细胞",
-        "riskLevel": 4,
-        "organName": "眼",
+        "diseaseName": "黑色素细胞瘤",
+        "riskLevel": 1,
         "systemCode": "9",
-        "value": 0.000000,
+        "value": 0.003682,
         "itemDValue": 0.000000,
-        "itemType": "BIOCHEMISTRY",
-        "detail": "感染"
+        "itemType": "ALERT",
+        "detail": "耳、皮肤"
       },
       {
-        "diseaseName": "胆固醇",
-        "riskLevel": 4,
-        "organName": "皮肤",
+        "diseaseName": "虹膜炎",
+        "riskLevel": 1,
         "systemCode": "9",
-        "value": 0.000000,
+        "value": 0.005156,
         "itemDValue": 0.000000,
-        "itemType": "BIOCHEMISTRY",
-        "detail": "高脂血症、冠心病、心脑血管病"
+        "itemType": "ALERT",
+        "detail": "眼"
       },
       {
-        "diseaseName": "甘油三脂",
-        "riskLevel": 4,
-        "organName": "皮肤",
+        "diseaseName": "甲沟炎",
+        "riskLevel": 1,
         "systemCode": "9",
-        "value": 0.000000,
+        "value": 0.003226,
         "itemDValue": 0.000000,
-        "itemType": "BIOCHEMISTRY",
-        "detail": "高脂血症、心脏病、肾病"
+        "itemType": "ALERT",
+        "detail": "皮肤"
       }
     ],
     "BIOCHEMISTRY_6": [
       {
         "diseaseName": "C反应蛋白",
         "riskLevel": 4,
-        "organName": "脊神经",
         "systemCode": "6",
-        "value": 0.000000,
+        "value": 1.164000,
         "itemDValue": 0.000000,
         "itemType": "BIOCHEMISTRY",
         "detail": "炎症、感染、心肌梗塞"
@@ -223,49 +222,44 @@
       {
         "diseaseName": "γ球蛋白",
         "riskLevel": 4,
-        "organName": "脊神经",
         "systemCode": "6",
-        "value": 0.000000,
+        "value": 1.160000,
         "itemDValue": 0.000000,
         "itemType": "BIOCHEMISTRY",
         "detail": "感染、肾病、自身免疫性疾病"
       },
       {
         "diseaseName": "白细胞",
-        "riskLevel": 4,
-        "organName": "外周神经",
+        "riskLevel": 3,
         "systemCode": "6",
-        "value": 0.000000,
+        "value": 1.156000,
         "itemDValue": 0.000000,
         "itemType": "BIOCHEMISTRY",
         "detail": "感染、炎症、脾功能亢进、造血功能障碍"
       },
       {
         "diseaseName": "促甲状腺激素",
-        "riskLevel": 4,
-        "organName": "外周神经",
+        "riskLevel": 3,
         "systemCode": "6",
-        "value": 0.000000,
+        "value": 1.137000,
         "itemDValue": 0.000000,
         "itemType": "BIOCHEMISTRY",
         "detail": "甲状腺功能亢进和减退"
       },
       {
         "diseaseName": "促肾上腺皮质激素",
-        "riskLevel": 4,
-        "organName": "脊神经",
+        "riskLevel": 3,
         "systemCode": "6",
-        "value": 0.000000,
+        "value": 1.148000,
         "itemDValue": 0.000000,
         "itemType": "BIOCHEMISTRY",
         "detail": "肾上腺功能减退和分泌亢进"
       },
       {
         "diseaseName": "单核细胞",
-        "riskLevel": 4,
-        "organName": "脊神经",
+        "riskLevel": 3,
         "systemCode": "6",
-        "value": 0.000000,
+        "value": 1.144000,
         "itemDValue": 0.000000,
         "itemType": "BIOCHEMISTRY",
         "detail": "感染"
@@ -273,9 +267,8 @@
       {
         "diseaseName": "胆固醇",
         "riskLevel": 4,
-        "organName": "外周神经",
         "systemCode": "6",
-        "value": 0.000000,
+        "value": 1.158000,
         "itemDValue": 0.000000,
         "itemType": "BIOCHEMISTRY",
         "detail": "高脂血症、冠心病、心脑血管病"
@@ -283,39 +276,35 @@
       {
         "diseaseName": "甘油三脂",
         "riskLevel": 4,
-        "organName": "外周神经",
         "systemCode": "6",
-        "value": 1.000000,
-        "itemDValue": 0.000000,
+        "value": 1.172000,
+        "itemDValue": 1.000000,
         "itemType": "BIOCHEMISTRY",
         "detail": "高脂血症、心脏病、肾病"
       },
       {
         "diseaseName": "谷丙转氨酶",
-        "riskLevel": 4,
-        "organName": "脊神经",
+        "riskLevel": 3,
         "systemCode": "6",
-        "value": 0.000000,
+        "value": 1.084000,
         "itemDValue": 0.000000,
         "itemType": "BIOCHEMISTRY",
         "detail": "肝胆疾病、心肌骨骼肌损伤"
       },
       {
         "diseaseName": "谷草转氨酶",
-        "riskLevel": 4,
-        "organName": "脊神经",
+        "riskLevel": 3,
         "systemCode": "6",
-        "value": 0.000000,
+        "value": 1.123000,
         "itemDValue": 0.000000,
         "itemType": "BIOCHEMISTRY",
         "detail": "肝胆疾病、心肌梗塞、心肌炎"
       },
       {
         "diseaseName": "红细胞",
-        "riskLevel": 4,
-        "organName": "脊神经",
+        "riskLevel": 3,
         "systemCode": "6",
-        "value": 0.000000,
+        "value": 1.138000,
         "itemDValue": 0.000000,
         "itemType": "BIOCHEMISTRY",
         "detail": "贫血、感染"
@@ -323,19 +312,17 @@
       {
         "diseaseName": "红细胞沉降率(ESR)",
         "riskLevel": 4,
-        "organName": "外周神经",
         "systemCode": "6",
-        "value": 1.000000,
-        "itemDValue": 0.000000,
+        "value": 1.174000,
+        "itemDValue": 1.000000,
         "itemType": "BIOCHEMISTRY",
         "detail": "各种炎症、组织损伤及坏死、恶性肿瘤、贫血"
       },
       {
         "diseaseName": "肌酸激酶",
         "riskLevel": 4,
-        "organName": "外周神经",
         "systemCode": "6",
-        "value": 0.000000,
+        "value": 1.169000,
         "itemDValue": 0.000000,
         "itemType": "BIOCHEMISTRY",
         "detail": "心肌或者肌肉的损伤"
@@ -343,69 +330,62 @@
       {
         "diseaseName": "甲状腺素",
         "riskLevel": 4,
-        "organName": "脊神经",
         "systemCode": "6",
-        "value": 1.000000,
-        "itemDValue": 0.000000,
+        "value": 1.173000,
+        "itemDValue": 1.000000,
         "itemType": "BIOCHEMISTRY",
         "detail": "维持生长发育、代谢的作用"
       },
       {
         "diseaseName": "碱性磷酸酶",
-        "riskLevel": 4,
-        "organName": "脊神经",
+        "riskLevel": 3,
         "systemCode": "6",
-        "value": 0.000000,
+        "value": 1.080000,
         "itemDValue": 0.000000,
         "itemType": "BIOCHEMISTRY",
         "detail": "骨骼、肝胆系统疾病"
       },
       {
         "diseaseName": "淋巴细胞",
-        "riskLevel": 4,
-        "organName": "脊神经",
+        "riskLevel": 3,
         "systemCode": "6",
-        "value": 0.000000,
+        "value": 1.157000,
         "itemDValue": 0.000000,
         "itemType": "BIOCHEMISTRY",
         "detail": "感染、血液病"
       },
       {
         "diseaseName": "凝血酶原指数",
-        "riskLevel": 4,
-        "organName": "外周神经",
+        "riskLevel": 3,
         "systemCode": "6",
-        "value": -1.000000,
-        "itemDValue": 0.000000,
+        "value": 1.048000,
+        "itemDValue": -1.000000,
         "itemType": "BIOCHEMISTRY",
         "detail": "凝血功能"
       },
       {
         "diseaseName": "乳酸脱氢酶",
         "riskLevel": 4,
-        "organName": "外周神经",
         "systemCode": "6",
-        "value": 0.000000,
+        "value": 1.164000,
         "itemDValue": 0.000000,
         "itemType": "BIOCHEMISTRY",
         "detail": "肝病、肿瘤、心肌梗塞"
       },
       {
         "diseaseName": "生长激素",
-        "riskLevel": 4,
-        "organName": "外周神经",
+        "riskLevel": 3,
         "systemCode": "6",
-        "value": 0.000000,
+        "value": 1.096000,
         "itemDValue": 0.000000,
         "itemType": "BIOCHEMISTRY",
         "detail": "巨人症、肢端肥大症、垂体疾病"
       },
       {
         "diseaseName": "网织红细胞",
-        "riskLevel": 4,
-        "organName": "脊神经",
+        "riskLevel": 3,
         "systemCode": "6",
-        "value": 0.000000,
+        "value": 1.094000,
         "itemDValue": 0.000000,
         "itemType": "BIOCHEMISTRY",
         "detail": "贫血、血液病"
@@ -414,110 +394,99 @@
     "BIOCHEMISTRY_5": [
       {
         "diseaseName": "白细胞",
-        "riskLevel": 4,
-        "organName": "胆囊",
+        "riskLevel": 3,
         "systemCode": "5",
-        "value": 0.000000,
+        "value": 1.122000,
         "itemDValue": 0.000000,
         "itemType": "BIOCHEMISTRY",
         "detail": "感染、炎症、脾功能亢进、造血功能障碍"
       },
       {
         "diseaseName": "单核细胞",
-        "riskLevel": 4,
-        "organName": "胆囊",
+        "riskLevel": 3,
         "systemCode": "5",
-        "value": -1.000000,
-        "itemDValue": 0.000000,
+        "value": 1.075000,
+        "itemDValue": -1.000000,
         "itemType": "BIOCHEMISTRY",
         "detail": "感染"
       },
       {
         "diseaseName": "胆固醇",
-        "riskLevel": 4,
-        "organName": "胰腺",
+        "riskLevel": 3,
         "systemCode": "5",
-        "value": 0.000000,
+        "value": 1.105000,
         "itemDValue": 0.000000,
         "itemType": "BIOCHEMISTRY",
         "detail": "高脂血症、冠心病、心脑血管病"
       },
       {
         "diseaseName": "甘油三脂",
-        "riskLevel": 4,
-        "organName": "胰腺",
+        "riskLevel": 3,
         "systemCode": "5",
-        "value": 0.000000,
+        "value": 1.139000,
         "itemDValue": 0.000000,
         "itemType": "BIOCHEMISTRY",
         "detail": "高脂血症、心脏病、肾病"
       },
       {
         "diseaseName": "谷丙转氨酶",
-        "riskLevel": 4,
-        "organName": "肝",
+        "riskLevel": 3,
         "systemCode": "5",
-        "value": -1.000000,
-        "itemDValue": 0.000000,
+        "value": 1.034000,
+        "itemDValue": -1.000000,
         "itemType": "BIOCHEMISTRY",
         "detail": "肝胆疾病、心肌骨骼肌损伤"
       },
       {
         "diseaseName": "谷草转氨酶",
-        "riskLevel": 4,
-        "organName": "胃",
+        "riskLevel": 3,
         "systemCode": "5",
-        "value": -1.000000,
-        "itemDValue": 0.000000,
+        "value": 1.056000,
+        "itemDValue": -1.000000,
         "itemType": "BIOCHEMISTRY",
         "detail": "肝胆疾病、心肌梗塞、心肌炎"
       },
       {
         "diseaseName": "红细胞",
-        "riskLevel": 4,
-        "organName": "胰腺",
+        "riskLevel": 3,
         "systemCode": "5",
-        "value": 0.000000,
+        "value": 1.111000,
         "itemDValue": 0.000000,
         "itemType": "BIOCHEMISTRY",
         "detail": "贫血、感染"
       },
       {
         "diseaseName": "红细胞沉降率(ESR)",
-        "riskLevel": 4,
-        "organName": "胰腺",
+        "riskLevel": 3,
         "systemCode": "5",
-        "value": 0.000000,
+        "value": 1.149000,
         "itemDValue": 0.000000,
         "itemType": "BIOCHEMISTRY",
         "detail": "各种炎症、组织损伤及坏死、恶性肿瘤、贫血"
       },
       {
         "diseaseName": "肌酸激酶",
-        "riskLevel": 4,
-        "organName": "胰腺",
+        "riskLevel": 3,
         "systemCode": "5",
-        "value": 0.000000,
+        "value": 1.129000,
         "itemDValue": 0.000000,
         "itemType": "BIOCHEMISTRY",
         "detail": "心肌或者肌肉的损伤"
       },
       {
         "diseaseName": "碱性磷酸酶",
-        "riskLevel": 4,
-        "organName": "胰腺",
+        "riskLevel": 3,
         "systemCode": "5",
-        "value": -1.000000,
-        "itemDValue": 0.000000,
+        "value": 1.048000,
+        "itemDValue": -1.000000,
         "itemType": "BIOCHEMISTRY",
         "detail": "骨骼、肝胆系统疾病"
       },
       {
         "diseaseName": "淋巴细胞",
-        "riskLevel": 4,
-        "organName": "胰腺",
+        "riskLevel": 3,
         "systemCode": "5",
-        "value": 0.000000,
+        "value": 1.133000,
         "itemDValue": 0.000000,
         "itemType": "BIOCHEMISTRY",
         "detail": "感染、血液病"
@@ -525,89 +494,80 @@
       {
         "diseaseName": "凝血酶原指数",
         "riskLevel": 3,
-        "organName": "胰腺",
         "systemCode": "5",
-        "value": -1.000000,
-        "itemDValue": 0.000000,
+        "value": 0.918000,
+        "itemDValue": -1.000000,
         "itemType": "BIOCHEMISTRY",
         "detail": "凝血功能"
       },
       {
         "diseaseName": "乳酸脱氢酶",
-        "riskLevel": 4,
-        "organName": "胰腺",
+        "riskLevel": 3,
         "systemCode": "5",
-        "value": 0.000000,
+        "value": 1.123000,
         "itemDValue": 0.000000,
         "itemType": "BIOCHEMISTRY",
         "detail": "肝病、肿瘤、心肌梗塞"
       },
       {
         "diseaseName": "嗜酸性粒细胞",
-        "riskLevel": 4,
-        "organName": "胃",
+        "riskLevel": 3,
         "systemCode": "5",
-        "value": 0.000000,
+        "value": 1.081000,
         "itemDValue": 0.000000,
         "itemType": "BIOCHEMISTRY",
         "detail": "变态反应性疾病、感染、皮肤、血液、恶性肿瘤"
       },
       {
         "diseaseName": "血钙",
-        "riskLevel": 4,
-        "organName": "胰腺",
+        "riskLevel": 3,
         "systemCode": "5",
-        "value": -1.000000,
-        "itemDValue": 0.000000,
+        "value": 1.052000,
+        "itemDValue": -1.000000,
         "itemType": "BIOCHEMISTRY",
         "detail": "甲亢、肿瘤、肌痉挛"
       },
       {
         "diseaseName": "血红蛋白",
-        "riskLevel": 4,
-        "organName": "胰腺",
+        "riskLevel": 3,
         "systemCode": "5",
-        "value": 0.000000,
+        "value": 1.106000,
         "itemDValue": 0.000000,
         "itemType": "BIOCHEMISTRY",
         "detail": "血液病"
       },
       {
         "diseaseName": "血钾",
-        "riskLevel": 4,
-        "organName": "胃",
+        "riskLevel": 3,
         "systemCode": "5",
-        "value": 0.000000,
+        "value": 1.090000,
         "itemDValue": 0.000000,
         "itemType": "BIOCHEMISTRY",
         "detail": "高/低钾血症、内分泌疾病"
       },
       {
         "diseaseName": "血浆脂蛋白",
-        "riskLevel": 4,
-        "organName": "胰腺",
+        "riskLevel": 3,
         "systemCode": "5",
-        "value": -1.000000,
-        "itemDValue": 0.000000,
+        "value": 1.007000,
+        "itemDValue": -1.000000,
         "itemType": "BIOCHEMISTRY",
         "detail": "高脂血症、肝病、血液病"
       },
       {
         "diseaseName": "血钠",
-        "riskLevel": 4,
-        "organName": "胆囊",
+        "riskLevel": 3,
         "systemCode": "5",
-        "value": 0.000000,
+        "value": 1.108000,
         "itemDValue": 0.000000,
         "itemType": "BIOCHEMISTRY",
         "detail": "心脏病、肝肾病"
       },
       {
         "diseaseName": "血尿素氮",
-        "riskLevel": 4,
-        "organName": "胰腺",
+        "riskLevel": 3,
         "systemCode": "5",
-        "value": 0.000000,
+        "value": 1.127000,
         "itemDValue": 0.000000,
         "itemType": "BIOCHEMISTRY",
         "detail": "肾病、心衰、烧伤"
@@ -617,9 +577,8 @@
       {
         "diseaseName": "C反应蛋白",
         "riskLevel": 4,
-        "organName": "主动脉",
         "systemCode": "4",
-        "value": 0.000000,
+        "value": 1.164000,
         "itemDValue": 0.000000,
         "itemType": "BIOCHEMISTRY",
         "detail": "炎症、感染、心肌梗塞"
@@ -627,39 +586,35 @@
       {
         "diseaseName": "白细胞",
         "riskLevel": 4,
-        "organName": "主动脉",
         "systemCode": "4",
-        "value": 0.000000,
+        "value": 1.163000,
         "itemDValue": 0.000000,
         "itemType": "BIOCHEMISTRY",
         "detail": "感染、炎症、脾功能亢进、造血功能障碍"
       },
       {
         "diseaseName": "促甲状腺激素",
-        "riskLevel": 4,
-        "organName": "主动脉",
+        "riskLevel": 3,
         "systemCode": "4",
-        "value": 0.000000,
+        "value": 1.131000,
         "itemDValue": 0.000000,
         "itemType": "BIOCHEMISTRY",
         "detail": "甲状腺功能亢进和减退"
       },
       {
         "diseaseName": "促肾上腺皮质激素",
-        "riskLevel": 4,
-        "organName": "主动脉",
+        "riskLevel": 3,
         "systemCode": "4",
-        "value": 0.000000,
+        "value": 1.148000,
         "itemDValue": 0.000000,
         "itemType": "BIOCHEMISTRY",
         "detail": "肾上腺功能减退和分泌亢进"
       },
       {
         "diseaseName": "胆固醇",
-        "riskLevel": 4,
-        "organName": "主动脉",
+        "riskLevel": 3,
         "systemCode": "4",
-        "value": 0.000000,
+        "value": 1.152000,
         "itemDValue": 0.000000,
         "itemType": "BIOCHEMISTRY",
         "detail": "高脂血症、冠心病、心脑血管病"
@@ -667,29 +622,26 @@
       {
         "diseaseName": "甘油三脂",
         "riskLevel": 4,
-        "organName": "主动脉",
         "systemCode": "4",
-        "value": 0.000000,
+        "value": 1.167000,
         "itemDValue": 0.000000,
         "itemType": "BIOCHEMISTRY",
         "detail": "高脂血症、心脏病、肾病"
       },
       {
         "diseaseName": "谷丙转氨酶",
-        "riskLevel": 4,
-        "organName": "主动脉",
+        "riskLevel": 3,
         "systemCode": "4",
-        "value": 0.000000,
+        "value": 1.122000,
         "itemDValue": 0.000000,
         "itemType": "BIOCHEMISTRY",
         "detail": "肝胆疾病、心肌骨骼肌损伤"
       },
       {
         "diseaseName": "谷草转氨酶",
-        "riskLevel": 4,
-        "organName": "主动脉",
+        "riskLevel": 3,
         "systemCode": "4",
-        "value": 0.000000,
+        "value": 1.125000,
         "itemDValue": 0.000000,
         "itemType": "BIOCHEMISTRY",
         "detail": "肝胆疾病、心肌梗塞、心肌炎"
@@ -697,9 +649,8 @@
       {
         "diseaseName": "肌酸激酶",
         "riskLevel": 4,
-        "organName": "主动脉",
         "systemCode": "4",
-        "value": 0.000000,
+        "value": 1.167000,
         "itemDValue": 0.000000,
         "itemType": "BIOCHEMISTRY",
         "detail": "心肌或者肌肉的损伤"
@@ -707,19 +658,17 @@
       {
         "diseaseName": "乳酸脱氢酶",
         "riskLevel": 4,
-        "organName": "主动脉",
         "systemCode": "4",
-        "value": 0.000000,
+        "value": 1.165000,
         "itemDValue": 0.000000,
         "itemType": "BIOCHEMISTRY",
         "detail": "肝病、肿瘤、心肌梗塞"
       },
       {
         "diseaseName": "血红蛋白",
-        "riskLevel": 4,
-        "organName": "主动脉",
+        "riskLevel": 3,
         "systemCode": "4",
-        "value": 0.000000,
+        "value": 1.153000,
         "itemDValue": 0.000000,
         "itemType": "BIOCHEMISTRY",
         "detail": "血液病"
@@ -727,29 +676,26 @@
       {
         "diseaseName": "血肌酐",
         "riskLevel": 4,
-        "organName": "主动脉",
         "systemCode": "4",
-        "value": 0.000000,
+        "value": 1.170000,
         "itemDValue": 0.000000,
         "itemType": "BIOCHEMISTRY",
         "detail": "肾病、心肌病"
       },
       {
         "diseaseName": "血钾",
-        "riskLevel": 4,
-        "organName": "主动脉",
+        "riskLevel": 3,
         "systemCode": "4",
-        "value": 0.000000,
+        "value": 1.145000,
         "itemDValue": 0.000000,
         "itemType": "BIOCHEMISTRY",
         "detail": "高/低钾血症、内分泌疾病"
       },
       {
         "diseaseName": "血浆17-氧皮质类固醇",
-        "riskLevel": 4,
-        "organName": "主动脉",
+        "riskLevel": 3,
         "systemCode": "4",
-        "value": 0.000000,
+        "value": 1.092000,
         "itemDValue": 0.000000,
         "itemType": "BIOCHEMISTRY",
         "detail": "内分泌疾病"
@@ -757,29 +703,26 @@
       {
         "diseaseName": "血浆磷脂",
         "riskLevel": 4,
-        "organName": "主动脉",
         "systemCode": "4",
-        "value": 0.000000,
+        "value": 1.170000,
         "itemDValue": 0.000000,
         "itemType": "BIOCHEMISTRY",
         "detail": "高血压、肝病、血液病"
       },
       {
         "diseaseName": "血浆脂蛋白",
-        "riskLevel": 4,
-        "organName": "主动脉",
+        "riskLevel": 3,
         "systemCode": "4",
-        "value": 0.000000,
+        "value": 1.086000,
         "itemDValue": 0.000000,
         "itemType": "BIOCHEMISTRY",
         "detail": "高脂血症、肝病、血液病"
       },
       {
         "diseaseName": "血钠",
-        "riskLevel": 4,
-        "organName": "主动脉",
+        "riskLevel": 3,
         "systemCode": "4",
-        "value": 0.000000,
+        "value": 1.126000,
         "itemDValue": 0.000000,
         "itemType": "BIOCHEMISTRY",
         "detail": "心脏病、肝肾病"
@@ -787,9 +730,8 @@
       {
         "diseaseName": "血尿素氮",
         "riskLevel": 4,
-        "organName": "主动脉",
         "systemCode": "4",
-        "value": 0.000000,
+        "value": 1.163000,
         "itemDValue": 0.000000,
         "itemType": "BIOCHEMISTRY",
         "detail": "肾病、心衰、烧伤"
@@ -797,19 +739,17 @@
       {
         "diseaseName": "血尿酸",
         "riskLevel": 4,
-        "organName": "主动脉",
         "systemCode": "4",
-        "value": 0.000000,
+        "value": 1.167000,
         "itemDValue": 0.000000,
         "itemType": "BIOCHEMISTRY",
         "detail": "痛风、肾病"
       },
       {
         "diseaseName": "血清补体",
-        "riskLevel": 4,
-        "organName": "主动脉",
+        "riskLevel": 3,
         "systemCode": "4",
-        "value": 0.000000,
+        "value": 1.144000,
         "itemDValue": 0.000000,
         "itemType": "BIOCHEMISTRY",
         "detail": "肾病、自身免疫性疾病"
@@ -818,120 +758,108 @@
     "BIOCHEMISTRY_3": [
       {
         "diseaseName": "C反应蛋白",
-        "riskLevel": 4,
-        "organName": "脊椎",
+        "riskLevel": 3,
         "systemCode": "3",
-        "value": 0.000000,
+        "value": 1.142000,
         "itemDValue": 0.000000,
         "itemType": "BIOCHEMISTRY",
         "detail": "炎症、感染、心肌梗塞"
       },
       {
         "diseaseName": "γ球蛋白",
-        "riskLevel": 4,
-        "organName": "骨骼",
+        "riskLevel": 3,
         "systemCode": "3",
-        "value": 0.000000,
+        "value": 1.098000,
         "itemDValue": 0.000000,
         "itemType": "BIOCHEMISTRY",
         "detail": "感染、肾病、自身免疫性疾病"
       },
       {
         "diseaseName": "白细胞",
-        "riskLevel": 4,
-        "organName": "脊椎",
+        "riskLevel": 3,
         "systemCode": "3",
-        "value": 0.000000,
+        "value": 1.108000,
         "itemDValue": 0.000000,
         "itemType": "BIOCHEMISTRY",
         "detail": "感染、炎症、脾功能亢进、造血功能障碍"
       },
       {
         "diseaseName": "胆固醇",
-        "riskLevel": 4,
-        "organName": "脊椎",
+        "riskLevel": 3,
         "systemCode": "3",
-        "value": 0.000000,
+        "value": 1.102000,
         "itemDValue": 0.000000,
         "itemType": "BIOCHEMISTRY",
         "detail": "高脂血症、冠心病、心脑血管病"
       },
       {
         "diseaseName": "甘油三脂",
-        "riskLevel": 4,
-        "organName": "脊椎",
+        "riskLevel": 3,
         "systemCode": "3",
-        "value": 0.000000,
+        "value": 1.135000,
         "itemDValue": 0.000000,
         "itemType": "BIOCHEMISTRY",
         "detail": "高脂血症、心脏病、肾病"
       },
       {
         "diseaseName": "谷丙转氨酶",
-        "riskLevel": 4,
-        "organName": "脊椎",
+        "riskLevel": 3,
         "systemCode": "3",
-        "value": -1.000000,
-        "itemDValue": 0.000000,
+        "value": 1.050000,
+        "itemDValue": -1.000000,
         "itemType": "BIOCHEMISTRY",
         "detail": "肝胆疾病、心肌骨骼肌损伤"
       },
       {
         "diseaseName": "谷草转氨酶",
-        "riskLevel": 4,
-        "organName": "脊椎",
+        "riskLevel": 3,
         "systemCode": "3",
-        "value": -1.000000,
-        "itemDValue": 0.000000,
+        "value": 1.072000,
+        "itemDValue": -1.000000,
         "itemType": "BIOCHEMISTRY",
         "detail": "肝胆疾病、心肌梗塞、心肌炎"
       },
       {
         "diseaseName": "红细胞",
-        "riskLevel": 4,
-        "organName": "脊椎",
+        "riskLevel": 3,
         "systemCode": "3",
-        "value": 0.000000,
+        "value": 1.092000,
         "itemDValue": 0.000000,
         "itemType": "BIOCHEMISTRY",
         "detail": "贫血、感染"
       },
       {
         "diseaseName": "红细胞沉降率(ESR)",
-        "riskLevel": 4,
-        "organName": "脊椎",
+        "riskLevel": 3,
         "systemCode": "3",
-        "value": 0.000000,
+        "value": 1.146000,
         "itemDValue": 0.000000,
         "itemType": "BIOCHEMISTRY",
         "detail": "各种炎症、组织损伤及坏死、恶性肿瘤、贫血"
       },
       {
         "diseaseName": "肌酸激酶",
-        "riskLevel": 4,
-        "organName": "脊椎",
+        "riskLevel": 3,
         "systemCode": "3",
-        "value": 0.000000,
+        "value": 1.118000,
         "itemDValue": 0.000000,
         "itemType": "BIOCHEMISTRY",
         "detail": "心肌或者肌肉的损伤"
       },
       {
         "diseaseName": "碱性磷酸酶",
-        "riskLevel": 4,
-        "organName": "脊椎",
+        "riskLevel": 3,
         "systemCode": "3",
-        "value": 0.000000,
+        "value": 1.116000,
         "itemDValue": 0.000000,
         "itemType": "BIOCHEMISTRY",
         "detail": "骨骼、肝胆系统疾病"
       },
       {
         "diseaseName": "淋巴细胞",
-        "riskLevel": 4,
-        "organName": "脊椎",
+        "riskLevel": 3,
         "systemCode": "3",
-        "value": 0.000000,
+        "value": 1.128000,
         "itemDValue": 0.000000,
         "itemType": "BIOCHEMISTRY",
         "detail": "感染、血液病"
@@ -939,79 +867,71 @@
       {
         "diseaseName": "凝血酶原指数",
         "riskLevel": 3,
-        "organName": "脊椎",
         "systemCode": "3",
-        "value": -1.000000,
-        "itemDValue": 0.000000,
+        "value": 0.921000,
+        "itemDValue": -1.000000,
         "itemType": "BIOCHEMISTRY",
         "detail": "凝血功能"
       },
       {
         "diseaseName": "乳酸脱氢酶",
-        "riskLevel": 4,
-        "organName": "脊椎",
+        "riskLevel": 3,
         "systemCode": "3",
-        "value": 0.000000,
+        "value": 1.135000,
         "itemDValue": 0.000000,
         "itemType": "BIOCHEMISTRY",
         "detail": "肝病、肿瘤、心肌梗塞"
       },
       {
         "diseaseName": "生长激素",
-        "riskLevel": 4,
-        "organName": "脊椎",
+        "riskLevel": 3,
         "systemCode": "3",
-        "value": -1.000000,
-        "itemDValue": 0.000000,
+        "value": 1.012000,
+        "itemDValue": -1.000000,
         "itemType": "BIOCHEMISTRY",
         "detail": "巨人症、肢端肥大症、垂体疾病"
       },
       {
         "diseaseName": "嗜碱性粒细胞",
-        "riskLevel": 4,
-        "organName": "脊椎",
+        "riskLevel": 3,
         "systemCode": "3",
-        "value": -1.000000,
-        "itemDValue": 0.000000,
+        "value": 1.045000,
+        "itemDValue": -1.000000,
         "itemType": "BIOCHEMISTRY",
         "detail": "过敏性疾病、血液病、恶性肿瘤"
       },
       {
         "diseaseName": "嗜酸性粒细胞",
         "riskLevel": 3,
-        "organName": "脊椎",
         "systemCode": "3",
-        "value": -1.000000,
-        "itemDValue": 0.000000,
+        "value": 0.994000,
+        "itemDValue": -1.000000,
         "itemType": "BIOCHEMISTRY",
         "detail": "变态反应性疾病、感染、皮肤、血液、恶性肿瘤"
       },
       {
         "diseaseName": "网织红细胞",
         "riskLevel": 3,
-        "organName": "脊椎",
         "systemCode": "3",
-        "value": -1.000000,
-        "itemDValue": 0.000000,
+        "value": 0.984000,
+        "itemDValue": -1.000000,
         "itemType": "BIOCHEMISTRY",
         "detail": "贫血、血液病"
       },
       {
         "diseaseName": "血钙",
         "riskLevel": 4,
-        "organName": "脊椎",
         "systemCode": "3",
-        "value": 1.000000,
-        "itemDValue": 0.000000,
+        "value": 1.184000,
+        "itemDValue": 1.000000,
         "itemType": "BIOCHEMISTRY",
         "detail": "甲亢、肿瘤、肌痉挛"
       },
       {
         "diseaseName": "血红蛋白",
-        "riskLevel": 4,
-        "organName": "脊椎",
+        "riskLevel": 3,
         "systemCode": "3",
-        "value": 0.000000,
+        "value": 1.099000,
         "itemDValue": 0.000000,
         "itemType": "BIOCHEMISTRY",
         "detail": "血液病"
@@ -1021,9 +941,8 @@
       {
         "diseaseName": "C反应蛋白",
         "riskLevel": 4,
-        "organName": "皮肤",
         "systemCode": "9",
-        "value": 0.000000,
+        "value": 1.165000,
         "itemDValue": 0.000000,
         "itemType": "BIOCHEMISTRY",
         "detail": "炎症、感染、心肌梗塞"
@@ -1031,29 +950,26 @@
       {
         "diseaseName": "白细胞",
         "riskLevel": 4,
-        "organName": "眼",
         "systemCode": "9",
-        "value": 0.000000,
+        "value": 1.164000,
         "itemDValue": 0.000000,
         "itemType": "BIOCHEMISTRY",
         "detail": "感染、炎症、脾功能亢进、造血功能障碍"
       },
       {
         "diseaseName": "单核细胞",
-        "riskLevel": 4,
-        "organName": "眼",
+        "riskLevel": 3,
         "systemCode": "9",
-        "value": 0.000000,
+        "value": 1.143000,
         "itemDValue": 0.000000,
         "itemType": "BIOCHEMISTRY",
         "detail": "感染"
       },
       {
         "diseaseName": "胆固醇",
-        "riskLevel": 4,
-        "organName": "皮肤",
+        "riskLevel": 3,
         "systemCode": "9",
-        "value": 0.000000,
+        "value": 1.153000,
         "itemDValue": 0.000000,
         "itemType": "BIOCHEMISTRY",
         "detail": "高脂血症、冠心病、心脑血管病"
@@ -1061,39 +977,35 @@
       {
         "diseaseName": "甘油三脂",
         "riskLevel": 4,
-        "organName": "皮肤",
         "systemCode": "9",
-        "value": 0.000000,
+        "value": 1.169000,
         "itemDValue": 0.000000,
         "itemType": "BIOCHEMISTRY",
         "detail": "高脂血症、心脏病、肾病"
       },
       {
         "diseaseName": "谷丙转氨酶",
-        "riskLevel": 4,
-        "organName": "皮肤",
+        "riskLevel": 3,
         "systemCode": "9",
-        "value": 0.000000,
+        "value": 1.107000,
         "itemDValue": 0.000000,
         "itemType": "BIOCHEMISTRY",
         "detail": "肝胆疾病、心肌骨骼肌损伤"
       },
       {
         "diseaseName": "谷草转氨酶",
-        "riskLevel": 4,
-        "organName": "皮肤",
+        "riskLevel": 3,
         "systemCode": "9",
-        "value": 0.000000,
+        "value": 1.124000,
         "itemDValue": 0.000000,
         "itemType": "BIOCHEMISTRY",
         "detail": "肝胆疾病、心肌梗塞、心肌炎"
       },
       {
         "diseaseName": "红细胞",
-        "riskLevel": 4,
-        "organName": "皮肤",
+        "riskLevel": 3,
         "systemCode": "9",
-        "value": 0.000000,
+        "value": 1.153000,
         "itemDValue": 0.000000,
         "itemType": "BIOCHEMISTRY",
         "detail": "贫血、感染"
@@ -1101,19 +1013,17 @@
       {
         "diseaseName": "红细胞沉降率(ESR)",
         "riskLevel": 4,
-        "organName": "皮肤",
         "systemCode": "9",
-        "value": 1.000000,
-        "itemDValue": 0.000000,
+        "value": 1.175000,
+        "itemDValue": 1.000000,
         "itemType": "BIOCHEMISTRY",
         "detail": "各种炎症、组织损伤及坏死、恶性肿瘤、贫血"
       },
       {
         "diseaseName": "肌酸激酶",
         "riskLevel": 4,
-        "organName": "皮肤",
         "systemCode": "9",
-        "value": 0.000000,
+        "value": 1.160000,
         "itemDValue": 0.000000,
         "itemType": "BIOCHEMISTRY",
         "detail": "心肌或者肌肉的损伤"
@@ -1121,69 +1031,62 @@
       {
         "diseaseName": "甲状腺素",
         "riskLevel": 4,
-        "organName": "眼",
         "systemCode": "9",
-        "value": 1.000000,
-        "itemDValue": 0.000000,
+        "value": 1.171000,
+        "itemDValue": 1.000000,
         "itemType": "BIOCHEMISTRY",
         "detail": "维持生长发育、代谢的作用"
       },
       {
         "diseaseName": "碱性磷酸酶",
-        "riskLevel": 4,
-        "organName": "皮肤",
+        "riskLevel": 3,
         "systemCode": "9",
-        "value": 0.000000,
+        "value": 1.094000,
         "itemDValue": 0.000000,
         "itemType": "BIOCHEMISTRY",
         "detail": "骨骼、肝胆系统疾病"
       },
       {
         "diseaseName": "淋巴细胞",
-        "riskLevel": 4,
-        "organName": "眼",
+        "riskLevel": 3,
         "systemCode": "9",
-        "value": 0.000000,
+        "value": 1.156000,
         "itemDValue": 0.000000,
         "itemType": "BIOCHEMISTRY",
         "detail": "感染、血液病"
       },
       {
         "diseaseName": "凝血酶原指数",
-        "riskLevel": 4,
-        "organName": "皮肤",
+        "riskLevel": 3,
         "systemCode": "9",
-        "value": -1.000000,
-        "itemDValue": 0.000000,
+        "value": 1.055000,
+        "itemDValue": -1.000000,
         "itemType": "BIOCHEMISTRY",
         "detail": "凝血功能"
       },
       {
         "diseaseName": "乳酸脱氢酶",
         "riskLevel": 4,
-        "organName": "眼",
         "systemCode": "9",
-        "value": 0.000000,
+        "value": 1.158000,
         "itemDValue": 0.000000,
         "itemType": "BIOCHEMISTRY",
         "detail": "肝病、肿瘤、心肌梗塞"
       },
       {
         "diseaseName": "嗜酸性粒细胞",
-        "riskLevel": 4,
-        "organName": "皮肤",
+        "riskLevel": 3,
         "systemCode": "9",
-        "value": 0.000000,
+        "value": 1.089000,
         "itemDValue": 0.000000,
         "itemType": "BIOCHEMISTRY",
         "detail": "变态反应性疾病、感染、皮肤、血液、恶性肿瘤"
       },
       {
         "diseaseName": "血红蛋白",
-        "riskLevel": 4,
-        "organName": "皮肤",
+        "riskLevel": 3,
         "systemCode": "9",
-        "value": 0.000000,
+        "value": 1.154000,
         "itemDValue": 0.000000,
         "itemType": "BIOCHEMISTRY",
         "detail": "血液病"
@@ -1191,19 +1094,17 @@
       {
         "diseaseName": "血肌酐",
         "riskLevel": 4,
-        "organName": "皮肤",
         "systemCode": "9",
-        "value": 0.000000,
+        "value": 1.167000,
         "itemDValue": 0.000000,
         "itemType": "BIOCHEMISTRY",
         "detail": "肾病、心肌病"
       },
       {
         "diseaseName": "血浆脂蛋白",
-        "riskLevel": 4,
-        "organName": "皮肤",
+        "riskLevel": 3,
         "systemCode": "9",
-        "value": 0.000000,
+        "value": 1.081000,
         "itemDValue": 0.000000,
         "itemType": "BIOCHEMISTRY",
         "detail": "高脂血症、肝病、血液病"
@@ -1211,9 +1112,8 @@
       {
         "diseaseName": "血尿素氮",
         "riskLevel": 4,
-        "organName": "眼",
         "systemCode": "9",
-        "value": 0.000000,
+        "value": 1.165000,
         "itemDValue": 0.000000,
         "itemType": "BIOCHEMISTRY",
         "detail": "肾病、心衰、烧伤"
@@ -1223,19 +1123,17 @@
       {
         "diseaseName": "C反应蛋白",
         "riskLevel": 4,
-        "organName": "前列腺",
         "systemCode": "8",
-        "value": 0.000000,
+        "value": 1.165000,
         "itemDValue": 0.000000,
         "itemType": "BIOCHEMISTRY",
         "detail": "炎症、感染、心肌梗塞"
       },
       {
         "diseaseName": "γ球蛋白",
-        "riskLevel": 4,
-        "organName": "前列腺",
+        "riskLevel": 3,
         "systemCode": "8",
-        "value": 0.000000,
+        "value": 1.093000,
         "itemDValue": 0.000000,
         "itemType": "BIOCHEMISTRY",
         "detail": "感染、肾病、自身免疫性疾病"
@@ -1243,29 +1141,26 @@
       {
         "diseaseName": "白细胞",
         "riskLevel": 4,
-        "organName": "前列腺",
         "systemCode": "8",
-        "value": 0.000000,
+        "value": 1.167000,
         "itemDValue": 0.000000,
         "itemType": "BIOCHEMISTRY",
         "detail": "感染、炎症、脾功能亢进、造血功能障碍"
       },
       {
         "diseaseName": "单核细胞",
-        "riskLevel": 4,
-        "organName": "前列腺",
+        "riskLevel": 3,
         "systemCode": "8",
-        "value": 0.000000,
+        "value": 1.147000,
         "itemDValue": 0.000000,
         "itemType": "BIOCHEMISTRY",
         "detail": "感染"
       },
       {
         "diseaseName": "红细胞",
-        "riskLevel": 4,
-        "organName": "前列腺",
+        "riskLevel": 3,
         "systemCode": "8",
-        "value": 0.000000,
+        "value": 1.148000,
         "itemDValue": 0.000000,
         "itemType": "BIOCHEMISTRY",
         "detail": "贫血、感染"
@@ -1273,29 +1168,26 @@
       {
         "diseaseName": "红细胞沉降率(ESR)",
         "riskLevel": 4,
-        "organName": "前列腺",
         "systemCode": "8",
-        "value": 1.000000,
-        "itemDValue": 0.000000,
+        "value": 1.173000,
+        "itemDValue": 1.000000,
         "itemType": "BIOCHEMISTRY",
         "detail": "各种炎症、组织损伤及坏死、恶性肿瘤、贫血"
       },
       {
         "diseaseName": "肌酸激酶",
         "riskLevel": 4,
-        "organName": "前列腺",
         "systemCode": "8",
-        "value": 0.000000,
+        "value": 1.158000,
         "itemDValue": 0.000000,
         "itemType": "BIOCHEMISTRY",
         "detail": "心肌或者肌肉的损伤"
       },
       {
         "diseaseName": "碱性磷酸酶",
-        "riskLevel": 4,
-        "organName": "前列腺",
+        "riskLevel": 3,
         "systemCode": "8",
-        "value": 0.000000,
+        "value": 1.099000,
         "itemDValue": 0.000000,
         "itemType": "BIOCHEMISTRY",
         "detail": "骨骼、肝胆系统疾病"
@@ -1303,79 +1195,71 @@
       {
         "diseaseName": "淋巴细胞",
         "riskLevel": 4,
-        "organName": "前列腺",
         "systemCode": "8",
-        "value": 0.000000,
+        "value": 1.160000,
         "itemDValue": 0.000000,
         "itemType": "BIOCHEMISTRY",
         "detail": "感染、血液病"
       },
       {
         "diseaseName": "尿蛋白",
-        "riskLevel": 4,
-        "organName": "前列腺",
+        "riskLevel": 3,
         "systemCode": "8",
-        "value": 0.000000,
+        "value": 1.150000,
         "itemDValue": 0.000000,
         "itemType": "BIOCHEMISTRY",
         "detail": "肾病、泌尿系统感染"
       },
       {
         "diseaseName": "尿肌酐",
-        "riskLevel": 4,
-        "organName": "前列腺",
+        "riskLevel": 3,
         "systemCode": "8",
-        "value": 0.000000,
+        "value": 1.157000,
         "itemDValue": 0.000000,
         "itemType": "BIOCHEMISTRY",
         "detail": "内分泌疾病、进食肉类、运动"
       },
       {
         "diseaseName": "尿钾",
-        "riskLevel": 4,
-        "organName": "前列腺",
+        "riskLevel": 3,
         "systemCode": "8",
-        "value": 0.000000,
+        "value": 1.127000,
         "itemDValue": 0.000000,
         "itemType": "BIOCHEMISTRY",
         "detail": "肾病"
       },
       {
         "diseaseName": "尿磷",
-        "riskLevel": 4,
-        "organName": "前列腺",
+        "riskLevel": 3,
         "systemCode": "8",
-        "value": 0.000000,
+        "value": 1.093000,
         "itemDValue": 0.000000,
         "itemType": "BIOCHEMISTRY",
         "detail": "种肾脏疾病、肾功能不全、恶性肿瘤"
       },
       {
         "diseaseName": "尿钠",
-        "riskLevel": 4,
-        "organName": "前列腺",
+        "riskLevel": 3,
         "systemCode": "8",
-        "value": 0.000000,
+        "value": 1.117000,
         "itemDValue": 0.000000,
         "itemType": "BIOCHEMISTRY",
         "detail": "内分泌疾病、肾病、胃肠道疾病"
       },
       {
         "diseaseName": "尿尿素",
-        "riskLevel": 4,
-        "organName": "前列腺",
+        "riskLevel": 3,
         "systemCode": "8",
-        "value": 0.000000,
+        "value": 1.156000,
         "itemDValue": 0.000000,
         "itemType": "BIOCHEMISTRY",
         "detail": "肾病、烧伤"
       },
       {
         "diseaseName": "尿尿酸",
-        "riskLevel": 4,
-        "organName": "前列腺",
+        "riskLevel": 3,
         "systemCode": "8",
-        "value": 0.000000,
+        "value": 1.110000,
         "itemDValue": 0.000000,
         "itemType": "BIOCHEMISTRY",
         "detail": "痛风、高尿酸血症、进食高蛋白"
@@ -1383,39 +1267,35 @@
       {
         "diseaseName": "尿液白细胞",
         "riskLevel": 4,
-        "organName": "前列腺",
         "systemCode": "8",
-        "value": 1.000000,
-        "itemDValue": 0.000000,
+        "value": 1.172000,
+        "itemDValue": 1.000000,
         "itemType": "BIOCHEMISTRY",
         "detail": "炎症、感染"
       },
       {
         "diseaseName": "尿液红细胞",
-        "riskLevel": 4,
-        "organName": "前列腺",
+        "riskLevel": 3,
         "systemCode": "8",
-        "value": 0.000000,
+        "value": 1.112000,
         "itemDValue": 0.000000,
         "itemType": "BIOCHEMISTRY",
         "detail": "炎症感染、肾病"
       },
       {
         "diseaseName": "乳酸脱氢酶",
-        "riskLevel": 4,
-        "organName": "前列腺",
+        "riskLevel": 3,
         "systemCode": "8",
-        "value": 0.000000,
+        "value": 1.155000,
         "itemDValue": 0.000000,
         "itemType": "BIOCHEMISTRY",
         "detail": "肝病、肿瘤、心肌梗塞"
       },
       {
         "diseaseName": "酸性磷酸酶 ",
-        "riskLevel": 4,
-        "organName": "前列腺",
+        "riskLevel": 3,
         "systemCode": "8",
-        "value": 0.000000,
+        "value": 1.091000,
         "itemDValue": 0.000000,
         "itemType": "BIOCHEMISTRY",
         "detail": "前列腺癌、血液病"
@@ -1424,10 +1304,9 @@
     "BIOCHEMISTRY_7": [
       {
         "diseaseName": "C反应蛋白",
-        "riskLevel": 4,
-        "organName": "气管",
+        "riskLevel": 3,
         "systemCode": "7",
-        "value": 0.000000,
+        "value": 1.119000,
         "itemDValue": 0.000000,
         "itemType": "BIOCHEMISTRY",
         "detail": "炎症、感染、心肌梗塞"
@@ -1435,39 +1314,35 @@
       {
         "diseaseName": "白细胞",
         "riskLevel": 4,
-        "organName": "鼻",
         "systemCode": "7",
-        "value": 0.000000,
+        "value": 1.159000,
         "itemDValue": 0.000000,
         "itemType": "BIOCHEMISTRY",
         "detail": "感染、炎症、脾功能亢进、造血功能障碍"
       },
       {
         "diseaseName": "单核细胞",
-        "riskLevel": 4,
-        "organName": "鼻",
+        "riskLevel": 3,
         "systemCode": "7",
-        "value": 0.000000,
+        "value": 1.151000,
         "itemDValue": 0.000000,
         "itemType": "BIOCHEMISTRY",
         "detail": "感染"
       },
       {
         "diseaseName": "胆固醇",
-        "riskLevel": 4,
-        "organName": "鼻",
+        "riskLevel": 3,
         "systemCode": "7",
-        "value": 0.000000,
+        "value": 1.150000,
         "itemDValue": 0.000000,
         "itemType": "BIOCHEMISTRY",
         "detail": "高脂血症、冠心病、心脑血管病"
       },
       {
         "diseaseName": "分叶核中性粒细胞",
-        "riskLevel": 4,
-        "organName": "鼻",
+        "riskLevel": 3,
         "systemCode": "7",
-        "value": 0.000000,
+        "value": 1.124000,
         "itemDValue": 0.000000,
         "itemType": "BIOCHEMISTRY",
         "detail": "感染"
@@ -1475,39 +1350,35 @@
       {
         "diseaseName": "甘油三脂",
         "riskLevel": 4,
-        "organName": "鼻",
         "systemCode": "7",
-        "value": 0.000000,
+        "value": 1.166000,
         "itemDValue": 0.000000,
         "itemType": "BIOCHEMISTRY",
         "detail": "高脂血症、心脏病、肾病"
       },
       {
         "diseaseName": "谷丙转氨酶",
-        "riskLevel": 4,
-        "organName": "鼻",
+        "riskLevel": 3,
         "systemCode": "7",
-        "value": 0.000000,
+        "value": 1.097000,
         "itemDValue": 0.000000,
         "itemType": "BIOCHEMISTRY",
         "detail": "肝胆疾病、心肌骨骼肌损伤"
       },
       {
         "diseaseName": "谷草转氨酶",
-        "riskLevel": 4,
-        "organName": "鼻",
+        "riskLevel": 3,
         "systemCode": "7",
-        "value": 0.000000,
+        "value": 1.122000,
         "itemDValue": 0.000000,
         "itemType": "BIOCHEMISTRY",
         "detail": "肝胆疾病、心肌梗塞、心肌炎"
       },
       {
         "diseaseName": "红细胞",
-        "riskLevel": 4,
-        "organName": "鼻",
+        "riskLevel": 3,
         "systemCode": "7",
-        "value": 0.000000,
+        "value": 1.144000,
         "itemDValue": 0.000000,
         "itemType": "BIOCHEMISTRY",
         "detail": "贫血、感染"
@@ -1515,29 +1386,26 @@
       {
         "diseaseName": "红细胞沉降率(ESR)",
         "riskLevel": 4,
-        "organName": "鼻",
         "systemCode": "7",
-        "value": 1.000000,
-        "itemDValue": 0.000000,
+        "value": 1.174000,
+        "itemDValue": 1.000000,
         "itemType": "BIOCHEMISTRY",
         "detail": "各种炎症、组织损伤及坏死、恶性肿瘤、贫血"
       },
       {
         "diseaseName": "肌酸激酶",
         "riskLevel": 4,
-        "organName": "鼻",
         "systemCode": "7",
-        "value": 0.000000,
+        "value": 1.164000,
         "itemDValue": 0.000000,
         "itemType": "BIOCHEMISTRY",
         "detail": "心肌或者肌肉的损伤"
       },
       {
         "diseaseName": "碱性磷酸酶",
-        "riskLevel": 4,
-        "organName": "鼻",
+        "riskLevel": 3,
         "systemCode": "7",
-        "value": 0.000000,
+        "value": 1.084000,
         "itemDValue": 0.000000,
         "itemType": "BIOCHEMISTRY",
         "detail": "骨骼、肝胆系统疾病"
@@ -1545,69 +1413,62 @@
       {
         "diseaseName": "淋巴细胞",
         "riskLevel": 4,
-        "organName": "鼻",
         "systemCode": "7",
-        "value": 1.000000,
-        "itemDValue": 0.000000,
+        "value": 1.173000,
+        "itemDValue": 1.000000,
         "itemType": "BIOCHEMISTRY",
         "detail": "感染、血液病"
       },
       {
         "diseaseName": "乳酸脱氢酶",
         "riskLevel": 4,
-        "organName": "鼻",
         "systemCode": "7",
-        "value": 0.000000,
+        "value": 1.166000,
         "itemDValue": 0.000000,
         "itemType": "BIOCHEMISTRY",
         "detail": "肝病、肿瘤、心肌梗塞"
       },
       {
         "diseaseName": "嗜碱性粒细胞",
-        "riskLevel": 4,
-        "organName": "鼻",
+        "riskLevel": 3,
         "systemCode": "7",
-        "value": 0.000000,
+        "value": 1.103000,
         "itemDValue": 0.000000,
         "itemType": "BIOCHEMISTRY",
         "detail": "过敏性疾病、血液病、恶性肿瘤"
       },
       {
         "diseaseName": "嗜酸性粒细胞",
-        "riskLevel": 4,
-        "organName": "鼻",
+        "riskLevel": 3,
         "systemCode": "7",
-        "value": 0.000000,
+        "value": 1.139000,
         "itemDValue": 0.000000,
         "itemType": "BIOCHEMISTRY",
         "detail": "变态反应性疾病、感染、皮肤、血液、恶性肿瘤"
       },
       {
         "diseaseName": "血钙",
-        "riskLevel": 4,
-        "organName": "鼻",
+        "riskLevel": 3,
         "systemCode": "7",
-        "value": 0.000000,
+        "value": 1.133000,
         "itemDValue": 0.000000,
         "itemType": "BIOCHEMISTRY",
         "detail": "甲亢、肿瘤、肌痉挛"
       },
       {
         "diseaseName": "血红蛋白",
-        "riskLevel": 4,
-        "organName": "鼻",
+        "riskLevel": 3,
         "systemCode": "7",
-        "value": 0.000000,
+        "value": 1.154000,
         "itemDValue": 0.000000,
         "itemType": "BIOCHEMISTRY",
         "detail": "血液病"
       },
       {
         "diseaseName": "血钾",
-        "riskLevel": 4,
-        "organName": "鼻",
+        "riskLevel": 3,
         "systemCode": "7",
-        "value": 0.000000,
+        "value": 1.149000,
         "itemDValue": 0.000000,
         "itemType": "BIOCHEMISTRY",
         "detail": "高/低钾血症、内分泌疾病"
@@ -1615,9 +1476,8 @@
       {
         "diseaseName": "血浆磷脂",
         "riskLevel": 4,
-        "organName": "鼻",
         "systemCode": "7",
-        "value": 0.000000,
+        "value": 1.168000,
         "itemDValue": 0.000000,
         "itemType": "BIOCHEMISTRY",
         "detail": "高血压、肝病、血液病"
@@ -1626,8 +1486,7 @@
     "ORGAN_3": [
       {
         "diseaseName": "大脑",
-        "riskLevel": 1,
-        "organName": "脊椎",
+        "riskLevel": 2,
         "systemCode": "3",
         "value": 0.071000,
         "itemDValue": 0.000000,
@@ -1637,7 +1496,6 @@
       {
         "diseaseName": "骶髂关节",
         "riskLevel": 1,
-        "organName": "骨骼",
         "systemCode": "3",
         "value": 0.021000,
         "itemDValue": 0.000000,
@@ -1646,8 +1504,7 @@
       },
       {
         "diseaseName": "肱骨关节",
-        "riskLevel": 1,
-        "organName": "骨骼",
+        "riskLevel": 2,
         "systemCode": "3",
         "value": 0.107000,
         "itemDValue": 0.000000,
@@ -1656,8 +1513,7 @@
       },
       {
         "diseaseName": "股骨",
-        "riskLevel": 1,
-        "organName": "骨骼",
+        "riskLevel": 2,
         "systemCode": "3",
         "value": 0.046000,
         "itemDValue": 0.000000,
@@ -1667,7 +1523,6 @@
       {
         "diseaseName": "脊神经",
         "riskLevel": 1,
-        "organName": "脊椎",
         "systemCode": "3",
         "value": 0.015000,
         "itemDValue": 0.000000,
@@ -1677,7 +1532,6 @@
       {
         "diseaseName": "肩关节软骨",
         "riskLevel": 1,
-        "organName": "骨骼",
         "systemCode": "3",
         "value": 0.022000,
         "itemDValue": 0.000000,
@@ -1687,7 +1541,6 @@
       {
         "diseaseName": "颈椎",
         "riskLevel": 1,
-        "organName": "骨骼",
         "systemCode": "3",
         "value": 0.040000,
         "itemDValue": 0.000000,
@@ -1697,9 +1550,8 @@
       {
         "diseaseName": "颈椎间关节",
         "riskLevel": 4,
-        "organName": "脊椎",
         "systemCode": "3",
-        "value": 1.150000,
+        "value": 1.375000,
         "itemDValue": 0.000000,
         "itemType": "ORGAN",
         "detail": ""
@@ -1707,17 +1559,15 @@
       {
         "diseaseName": "颈椎间盘",
         "riskLevel": 4,
-        "organName": "脊椎",
         "systemCode": "3",
-        "value": 1.150000,
+        "value": 1.486000,
         "itemDValue": 0.000000,
         "itemType": "ORGAN",
         "detail": ""
       },
       {
         "diseaseName": "髋关节",
-        "riskLevel": 1,
-        "organName": "骨骼",
+        "riskLevel": 2,
         "systemCode": "3",
         "value": 0.051000,
         "itemDValue": 0.000000,
@@ -1726,8 +1576,7 @@
       },
       {
         "diseaseName": "腕骨间关节",
-        "riskLevel": 1,
-        "organName": "骨骼",
+        "riskLevel": 2,
         "systemCode": "3",
         "value": 0.113000,
         "itemDValue": 0.000000,
@@ -1737,7 +1586,6 @@
       {
         "diseaseName": "膝关节软骨",
         "riskLevel": 1,
-        "organName": "骨骼",
         "systemCode": "3",
         "value": 0.022000,
         "itemDValue": 0.000000,
@@ -1747,7 +1595,6 @@
       {
         "diseaseName": "胸椎",
         "riskLevel": 2,
-        "organName": "骨骼",
         "systemCode": "3",
         "value": 0.446000,
         "itemDValue": 0.000000,
@@ -1757,7 +1604,6 @@
       {
         "diseaseName": "胸椎间关节",
         "riskLevel": 1,
-        "organName": "骨骼",
         "systemCode": "3",
         "value": 0.022000,
         "itemDValue": 0.000000,
@@ -1767,7 +1613,6 @@
       {
         "diseaseName": "胸椎间盘",
         "riskLevel": 1,
-        "organName": "骨骼",
         "systemCode": "3",
         "value": 0.020000,
         "itemDValue": 0.000000,
@@ -1777,7 +1622,6 @@
       {
         "diseaseName": "腰椎",
         "riskLevel": 3,
-        "organName": "脊椎",
         "systemCode": "3",
         "value": 0.966000,
         "itemDValue": 0.000000,
@@ -1787,9 +1631,8 @@
       {
         "diseaseName": "腰椎间关节",
         "riskLevel": 4,
-        "organName": "脊椎",
         "systemCode": "3",
-        "value": 1.150000,
+        "value": 1.298000,
         "itemDValue": 0.000000,
         "itemType": "ORGAN",
         "detail": ""
@@ -1797,7 +1640,6 @@
       {
         "diseaseName": "腰椎间盘",
         "riskLevel": 4,
-        "organName": "脊椎",
         "systemCode": "3",
         "value": 1.150000,
         "itemDValue": 0.000000,
@@ -1806,8 +1648,7 @@
       },
       {
         "diseaseName": "椎动脉",
-        "riskLevel": 1,
-        "organName": "脊椎",
+        "riskLevel": 2,
         "systemCode": "3",
         "value": 0.048000,
         "itemDValue": 0.000000,
@@ -1817,7 +1658,6 @@
       {
         "diseaseName": "椎间盘",
         "riskLevel": 3,
-        "organName": "脊椎",
         "systemCode": "3",
         "value": 1.120000,
         "itemDValue": 0.000000,
@@ -1828,8 +1668,7 @@
     "ORGAN_4": [
       {
         "diseaseName": "大脑",
-        "riskLevel": 1,
-        "organName": "脑血管",
+        "riskLevel": 2,
         "systemCode": "4",
         "value": 0.067000,
         "itemDValue": 0.000000,
@@ -1839,7 +1678,6 @@
       {
         "diseaseName": "大脑中动脉",
         "riskLevel": 2,
-        "organName": "脑血管",
         "systemCode": "4",
         "value": 0.247000,
         "itemDValue": 0.000000,
@@ -1849,7 +1687,6 @@
       {
         "diseaseName": "肺动脉",
         "riskLevel": 1,
-        "organName": "心脏",
         "systemCode": "4",
         "value": 0.038000,
         "itemDValue": 0.000000,
@@ -1859,7 +1696,6 @@
       {
         "diseaseName": "冠状动脉",
         "riskLevel": 4,
-        "organName": "心脏",
         "systemCode": "4",
         "value": 1.150000,
         "itemDValue": 0.000000,
@@ -1868,8 +1704,7 @@
       },
       {
         "diseaseName": "颈内动脉",
-        "riskLevel": 1,
-        "organName": "脑血管",
+        "riskLevel": 2,
         "systemCode": "4",
         "value": 0.051000,
         "itemDValue": 0.000000,
@@ -1879,7 +1714,6 @@
       {
         "diseaseName": "颈内静脉",
         "riskLevel": 1,
-        "organName": "脑血管",
         "systemCode": "4",
         "value": 0.018000,
         "itemDValue": 0.000000,
@@ -1889,7 +1723,6 @@
       {
         "diseaseName": "脑动脉环",
         "riskLevel": 4,
-        "organName": "脑血管",
         "systemCode": "4",
         "value": 1.150000,
         "itemDValue": 0.000000,
@@ -1899,7 +1732,6 @@
       {
         "diseaseName": "脑基底动脉",
         "riskLevel": 1,
-        "organName": "脑血管",
         "systemCode": "4",
         "value": 0.040000,
         "itemDValue": 0.000000,
@@ -1909,7 +1741,6 @@
       {
         "diseaseName": "下丘脑",
         "riskLevel": 4,
-        "organName": "脑血管",
         "systemCode": "4",
         "value": 1.150000,
         "itemDValue": 0.000000,
@@ -1919,7 +1750,6 @@
       {
         "diseaseName": "心包",
         "riskLevel": 1,
-        "organName": "心脏",
         "systemCode": "4",
         "value": 0.021000,
         "itemDValue": 0.000000,
@@ -1929,7 +1759,6 @@
       {
         "diseaseName": "心肌细胞",
         "riskLevel": 4,
-        "organName": "心脏",
         "systemCode": "4",
         "value": 1.150000,
         "itemDValue": 0.000000,
@@ -1939,7 +1768,6 @@
       {
         "diseaseName": "心室",
         "riskLevel": 4,
-        "organName": "心脏",
         "systemCode": "4",
         "value": 1.150000,
         "itemDValue": 0.000000,
@@ -1949,7 +1777,6 @@
       {
         "diseaseName": "心脏",
         "riskLevel": 2,
-        "organName": "心脏",
         "systemCode": "4",
         "value": 0.214000,
         "itemDValue": 0.000000,
@@ -1959,7 +1786,6 @@
       {
         "diseaseName": "右冠状动脉",
         "riskLevel": 3,
-        "organName": "心脏",
         "systemCode": "4",
         "value": 0.831000,
         "itemDValue": 0.000000,
@@ -1968,8 +1794,7 @@
       },
       {
         "diseaseName": "右心",
-        "riskLevel": 1,
-        "organName": "心脏",
+        "riskLevel": 2,
         "systemCode": "4",
         "value": 0.072000,
         "itemDValue": 0.000000,
@@ -1978,8 +1803,7 @@
       },
       {
         "diseaseName": "左冠状动脉",
-        "riskLevel": 1,
-        "organName": "心脏",
+        "riskLevel": 2,
         "systemCode": "4",
         "value": 0.117000,
         "itemDValue": 0.000000,
@@ -1989,7 +1813,6 @@
       {
         "diseaseName": "左心",
         "riskLevel": 2,
-        "organName": "心脏",
         "systemCode": "4",
         "value": 0.291000,
         "itemDValue": 0.000000,
@@ -2001,7 +1824,6 @@
       {
         "diseaseName": "贲门",
         "riskLevel": 1,
-        "organName": "胃",
         "systemCode": "5",
         "value": 0.011000,
         "itemDValue": 0.000000,
@@ -2011,7 +1833,6 @@
       {
         "diseaseName": "胆囊",
         "riskLevel": 4,
-        "organName": "胆囊",
         "systemCode": "5",
         "value": 1.150000,
         "itemDValue": 0.000000,
@@ -2020,8 +1841,7 @@
       },
       {
         "diseaseName": "胆囊管",
-        "riskLevel": 1,
-        "organName": "肝",
+        "riskLevel": 2,
         "systemCode": "5",
         "value": 0.115000,
         "itemDValue": 0.000000,
@@ -2031,7 +1851,6 @@
       {
         "diseaseName": "胆总管",
         "riskLevel": 4,
-        "organName": "胆囊",
         "systemCode": "5",
         "value": 1.150000,
         "itemDValue": 0.000000,
@@ -2041,7 +1860,6 @@
       {
         "diseaseName": "腹主动脉",
         "riskLevel": 1,
-        "organName": "肝",
         "systemCode": "5",
         "value": 0.042000,
         "itemDValue": 0.000000,
@@ -2050,8 +1868,7 @@
       },
       {
         "diseaseName": "肝管",
-        "riskLevel": 1,
-        "organName": "肝",
+        "riskLevel": 2,
         "systemCode": "5",
         "value": 0.117000,
         "itemDValue": 0.000000,
@@ -2061,7 +1878,6 @@
       {
         "diseaseName": "肝脏",
         "riskLevel": 1,
-        "organName": "肝",
         "systemCode": "5",
         "value": 0.019000,
         "itemDValue": 0.000000,
@@ -2071,7 +1887,6 @@
       {
         "diseaseName": "回肠",
         "riskLevel": 4,
-        "organName": "肠道",
         "systemCode": "5",
         "value": 1.150000,
         "itemDValue": 0.000000,
@@ -2080,8 +1895,7 @@
       },
       {
         "diseaseName": "结肠",
-        "riskLevel": 1,
-        "organName": "肠道",
+        "riskLevel": 2,
         "systemCode": "5",
         "value": 0.113000,
         "itemDValue": 0.000000,
@@ -2090,8 +1904,7 @@
       },
       {
         "diseaseName": "结肠淋巴结",
-        "riskLevel": 1,
-        "organName": "肠道",
+        "riskLevel": 2,
         "systemCode": "5",
         "value": 0.072000,
         "itemDValue": 0.000000,
@@ -2101,7 +1914,6 @@
       {
         "diseaseName": "空肠",
         "riskLevel": 4,
-        "organName": "肠道",
         "systemCode": "5",
         "value": 1.150000,
         "itemDValue": 0.000000,
@@ -2111,7 +1923,6 @@
       {
         "diseaseName": "盲肠",
         "riskLevel": 1,
-        "organName": "肠道",
         "systemCode": "5",
         "value": 0.017000,
         "itemDValue": 0.000000,
@@ -2121,7 +1932,6 @@
       {
         "diseaseName": "门静脉",
         "riskLevel": 1,
-        "organName": "胰腺",
         "systemCode": "5",
         "value": 0.027000,
         "itemDValue": 0.000000,
@@ -2130,8 +1940,7 @@
       },
       {
         "diseaseName": "脾动脉",
-        "riskLevel": 1,
-        "organName": "胰腺",
+        "riskLevel": 2,
         "systemCode": "5",
         "value": 0.081000,
         "itemDValue": 0.000000,
@@ -2141,7 +1950,6 @@
       {
         "diseaseName": "腔静脉",
         "riskLevel": 1,
-        "organName": "胰腺",
         "systemCode": "5",
         "value": 0.029000,
         "itemDValue": 0.000000,
@@ -2151,9 +1959,8 @@
       {
         "diseaseName": "十二指肠",
         "riskLevel": 4,
-        "organName": "肠道",
         "systemCode": "5",
-        "value": 1.150000,
+        "value": 1.302000,
         "itemDValue": 0.000000,
         "itemType": "ORGAN",
         "detail": ""
@@ -2161,7 +1968,6 @@
       {
         "diseaseName": "胰十二指肠动脉",
         "riskLevel": 1,
-        "organName": "胰腺",
         "systemCode": "5",
         "value": 0.040000,
         "itemDValue": 0.000000,
@@ -2171,7 +1977,6 @@
       {
         "diseaseName": "胰脏",
         "riskLevel": 4,
-        "organName": "胰腺",
         "systemCode": "5",
         "value": 1.150000,
         "itemDValue": 0.000000,
@@ -2181,7 +1986,6 @@
       {
         "diseaseName": "幽门",
         "riskLevel": 1,
-        "organName": "胃",
         "systemCode": "5",
         "value": 0.011000,
         "itemDValue": 0.000000,
@@ -2190,8 +1994,7 @@
       },
       {
         "diseaseName": "直肠",
-        "riskLevel": 1,
-        "organName": "肠道",
+        "riskLevel": 2,
         "systemCode": "5",
         "value": 0.110000,
         "itemDValue": 0.000000,
@@ -2202,8 +2005,7 @@
     "ORGAN_6": [
       {
         "diseaseName": "大脑",
-        "riskLevel": 1,
-        "organName": "脑",
+        "riskLevel": 2,
         "systemCode": "6",
         "value": 0.043000,
         "itemDValue": 0.000000,
@@ -2213,7 +2015,6 @@
       {
         "diseaseName": "大脑中动脉",
         "riskLevel": 2,
-        "organName": "脑",
         "systemCode": "6",
         "value": 0.370000,
         "itemDValue": 0.000000,
@@ -2222,8 +2023,7 @@
       },
       {
         "diseaseName": "后交通动脉",
-        "riskLevel": 1,
-        "organName": "脑",
+        "riskLevel": 2,
         "systemCode": "6",
         "value": 0.093000,
         "itemDValue": 0.000000,
@@ -2233,7 +2033,6 @@
       {
         "diseaseName": "脊神经",
         "riskLevel": 1,
-        "organName": "脊神经",
         "systemCode": "6",
         "value": 0.011000,
         "itemDValue": 0.000000,
@@ -2243,7 +2042,6 @@
       {
         "diseaseName": "脊髓",
         "riskLevel": 1,
-        "organName": "脊神经",
         "systemCode": "6",
         "value": 0.020000,
         "itemDValue": 0.000000,
@@ -2252,8 +2050,7 @@
       },
       {
         "diseaseName": "脑基底动脉",
-        "riskLevel": 1,
-        "organName": "脑",
+        "riskLevel": 2,
         "systemCode": "6",
         "value": 0.056000,
         "itemDValue": 0.000000,
@@ -2263,7 +2060,6 @@
       {
         "diseaseName": "神经垂体",
         "riskLevel": 2,
-        "organName": "脑",
         "systemCode": "6",
         "value": 0.306000,
         "itemDValue": 0.000000,
@@ -2273,7 +2069,6 @@
       {
         "diseaseName": "下丘脑",
         "riskLevel": 4,
-        "organName": "脑",
         "systemCode": "6",
         "value": 1.150000,
         "itemDValue": 0.000000,
@@ -2283,7 +2078,6 @@
       {
         "diseaseName": "小脑",
         "riskLevel": 1,
-        "organName": "脑",
         "systemCode": "6",
         "value": 0.025000,
         "itemDValue": 0.000000,
@@ -2293,7 +2087,6 @@
       {
         "diseaseName": "延髓",
         "riskLevel": 1,
-        "organName": "脑",
         "systemCode": "6",
         "value": 0.015000,
         "itemDValue": 0.000000,
@@ -2303,7 +2096,6 @@
       {
         "diseaseName": "硬脑膜",
         "riskLevel": 1,
-        "organName": "脑",
         "systemCode": "6",
         "value": 0.016000,
         "itemDValue": 0.000000,
@@ -2312,8 +2104,7 @@
       },
       {
         "diseaseName": "椎动脉",
-        "riskLevel": 1,
-        "organName": "脊神经",
+        "riskLevel": 2,
         "systemCode": "6",
         "value": 0.055000,
         "itemDValue": 0.000000,
@@ -2325,7 +2116,6 @@
       {
         "diseaseName": "多发性关节炎",
         "riskLevel": 2,
-        "organName": "脊椎",
         "systemCode": "3",
         "value": 0.286000,
         "itemDValue": 0.000000,
@@ -2335,9 +2125,8 @@
       {
         "diseaseName": "放射病",
         "riskLevel": 1,
-        "organName": "脊椎",
         "systemCode": "3",
-        "value": 0.010000,
+        "value": 0.001240,
         "itemDValue": 0.000000,
         "itemType": "ALERT",
         "detail": "骨骼、脊椎"
@@ -2345,9 +2134,8 @@
       {
         "diseaseName": "骨膜炎",
         "riskLevel": 1,
-        "organName": "脊椎",
         "systemCode": "3",
-        "value": 0.010000,
+        "value": 0.002065,
         "itemDValue": 0.000000,
         "itemType": "ALERT",
         "detail": "骨骼、脊椎"
@@ -2355,9 +2143,8 @@
       {
         "diseaseName": "骨髓瘤",
         "riskLevel": 1,
-        "organName": "脊椎",
         "systemCode": "3",
-        "value": 0.010000,
+        "value": 0.001381,
         "itemDValue": 0.000000,
         "itemType": "ALERT",
         "detail": "骨骼、脊椎"
@@ -2365,9 +2152,8 @@
       {
         "diseaseName": "关节变形",
         "riskLevel": 1,
-        "organName": "脊椎",
         "systemCode": "3",
-        "value": 0.010000,
+        "value": 0.001862,
         "itemDValue": 0.000000,
         "itemType": "ALERT",
         "detail": "骨骼、脊椎"
@@ -2375,9 +2161,8 @@
       {
         "diseaseName": "关节血肿",
         "riskLevel": 1,
-        "organName": "骨骼",
         "systemCode": "3",
-        "value": 0.010000,
+        "value": 0.002341,
         "itemDValue": 0.000000,
         "itemType": "ALERT",
         "detail": "骨骼、脊椎"
@@ -2385,9 +2170,8 @@
       {
         "diseaseName": "红斑性狼疮",
         "riskLevel": 1,
-        "organName": "脊椎",
         "systemCode": "3",
-        "value": 0.010000,
+        "value": 0.002225,
         "itemDValue": 0.000000,
         "itemType": "ALERT",
         "detail": "骨骼、脊椎"
@@ -2395,9 +2179,8 @@
       {
         "diseaseName": "脊椎发育不良",
         "riskLevel": 1,
-        "organName": "脊椎",
         "systemCode": "3",
-        "value": 0.010000,
+        "value": 0.001577,
         "itemDValue": 0.000000,
         "itemType": "ALERT",
         "detail": "脊椎"
@@ -2405,9 +2188,8 @@
       {
         "diseaseName": "脊椎关节变形",
         "riskLevel": 1,
-        "organName": "脊椎",
         "systemCode": "3",
-        "value": 0.010000,
+        "value": 0.002048,
         "itemDValue": 0.000000,
         "itemType": "ALERT",
         "detail": "脊椎"
@@ -2415,7 +2197,6 @@
       {
         "diseaseName": "类风湿关节炎",
         "riskLevel": 3,
-        "organName": "骨骼",
         "systemCode": "3",
         "value": 0.516000,
         "itemDValue": 0.000000,
@@ -2425,9 +2206,8 @@
       {
         "diseaseName": "马凡综合征",
         "riskLevel": 1,
-        "organName": "脊椎",
         "systemCode": "3",
-        "value": 0.010000,
+        "value": 0.002080,
         "itemDValue": 0.000000,
         "itemType": "ALERT",
         "detail": "骨骼、脊椎"
@@ -2435,9 +2215,8 @@
       {
         "diseaseName": "神经痛",
         "riskLevel": 1,
-        "organName": "脊椎",
         "systemCode": "3",
-        "value": 0.010000,
+        "value": 0.002525,
         "itemDValue": 0.000000,
         "itemType": "ALERT",
         "detail": "脊椎"
@@ -2445,9 +2224,8 @@
       {
         "diseaseName": "痛风",
         "riskLevel": 1,
-        "organName": "骨骼",
         "systemCode": "3",
-        "value": 0.010000,
+        "value": 0.002739,
         "itemDValue": 0.000000,
         "itemType": "ALERT",
         "detail": "骨骼、脊椎"
@@ -2455,9 +2233,8 @@
       {
         "diseaseName": "肢端肥大症",
         "riskLevel": 1,
-        "organName": "骨骼",
         "systemCode": "3",
-        "value": 0.010000,
+        "value": 0.000782,
         "itemDValue": 0.000000,
         "itemType": "ALERT",
         "detail": "骨骼"
@@ -2465,9 +2242,8 @@
       {
         "diseaseName": "椎间盘突出",
         "riskLevel": 1,
-        "organName": "骨骼",
         "systemCode": "3",
-        "value": 0.010000,
+        "value": 0.001898,
         "itemDValue": 0.000000,
         "itemType": "ALERT",
         "detail": "骨骼、脊椎"
@@ -2475,9 +2251,8 @@
       {
         "diseaseName": "椎体骨软骨病",
         "riskLevel": 1,
-        "organName": "骨骼",
         "systemCode": "3",
-        "value": 0.010000,
+        "value": 0.001178,
         "itemDValue": 0.000000,
         "itemType": "ALERT",
         "detail": "骨骼、脊椎"
@@ -2486,8 +2261,7 @@
     "ORGAN_7": [
       {
         "diseaseName": "鼻",
-        "riskLevel": 1,
-        "organName": "鼻",
+        "riskLevel": 2,
         "systemCode": "7",
         "value": 0.138000,
         "itemDValue": 0.000000,
@@ -2497,7 +2271,6 @@
       {
         "diseaseName": "鼻粘膜",
         "riskLevel": 3,
-        "organName": "鼻",
         "systemCode": "7",
         "value": 1.014000,
         "itemDValue": 0.000000,
@@ -2507,7 +2280,6 @@
       {
         "diseaseName": "肺",
         "riskLevel": 1,
-        "organName": "气管",
         "systemCode": "7",
         "value": 0.017000,
         "itemDValue": 0.000000,
@@ -2517,7 +2289,6 @@
       {
         "diseaseName": "肺丛",
         "riskLevel": 1,
-        "organName": "气管",
         "systemCode": "7",
         "value": 0.013000,
         "itemDValue": 0.000000,
@@ -2527,7 +2298,6 @@
       {
         "diseaseName": "肺丛静脉",
         "riskLevel": 1,
-        "organName": "肺",
         "systemCode": "7",
         "value": 0.021000,
         "itemDValue": 0.000000,
@@ -2537,7 +2307,6 @@
       {
         "diseaseName": "肺丛淋巴结",
         "riskLevel": 1,
-        "organName": "肺",
         "systemCode": "7",
         "value": 0.019000,
         "itemDValue": 0.000000,
@@ -2547,7 +2316,6 @@
       {
         "diseaseName": "肺动脉",
         "riskLevel": 1,
-        "organName": "肺",
         "systemCode": "7",
         "value": 0.038000,
         "itemDValue": 0.000000,
@@ -2557,7 +2325,6 @@
       {
         "diseaseName": "肺干",
         "riskLevel": 1,
-        "organName": "肺",
         "systemCode": "7",
         "value": 0.017000,
         "itemDValue": 0.000000,
@@ -2567,7 +2334,6 @@
       {
         "diseaseName": "喉部",
         "riskLevel": 1,
-        "organName": "气管",
         "systemCode": "7",
         "value": 0.014000,
         "itemDValue": 0.000000,
@@ -2577,7 +2343,6 @@
       {
         "diseaseName": "气管",
         "riskLevel": 2,
-        "organName": "气管",
         "systemCode": "7",
         "value": 0.239000,
         "itemDValue": 0.000000,
@@ -2586,8 +2351,7 @@
       },
       {
         "diseaseName": "气管淋巴结",
-        "riskLevel": 1,
-        "organName": "气管",
+        "riskLevel": 2,
         "systemCode": "7",
         "value": 0.114000,
         "itemDValue": 0.000000,
@@ -2597,7 +2361,6 @@
       {
         "diseaseName": "腮腺淋巴结",
         "riskLevel": 1,
-        "organName": "鼻",
         "systemCode": "7",
         "value": 0.015000,
         "itemDValue": 0.000000,
@@ -2607,7 +2370,6 @@
       {
         "diseaseName": "细支气管",
         "riskLevel": 2,
-        "organName": "肺",
         "systemCode": "7",
         "value": 0.683000,
         "itemDValue": 0.000000,
@@ -2617,7 +2379,6 @@
       {
         "diseaseName": "胸膜",
         "riskLevel": 1,
-        "organName": "肺",
         "systemCode": "7",
         "value": 0.013000,
         "itemDValue": 0.000000,
@@ -2627,7 +2388,6 @@
       {
         "diseaseName": "嗅神经",
         "riskLevel": 1,
-        "organName": "鼻",
         "systemCode": "7",
         "value": 0.028000,
         "itemDValue": 0.000000,
@@ -2637,17 +2397,15 @@
       {
         "diseaseName": "支气管",
         "riskLevel": 4,
-        "organName": "肺",
         "systemCode": "7",
-        "value": 1.150000,
+        "value": 1.251000,
         "itemDValue": 0.000000,
         "itemType": "ORGAN",
         "detail": ""
       },
       {
         "diseaseName": "支气管动脉",
-        "riskLevel": 1,
-        "organName": "肺",
+        "riskLevel": 2,
         "systemCode": "7",
         "value": 0.046000,
         "itemDValue": 0.000000,
@@ -2656,8 +2414,7 @@
       },
       {
         "diseaseName": "支气管肺门淋巴结",
-        "riskLevel": 1,
-        "organName": "肺",
+        "riskLevel": 2,
         "systemCode": "7",
         "value": 0.052000,
         "itemDValue": 0.000000,
@@ -2669,9 +2426,8 @@
       {
         "diseaseName": "动脉内膜炎",
         "riskLevel": 1,
-        "organName": "心脏",
         "systemCode": "4",
-        "value": 0.010000,
+        "value": 0.003981,
         "itemDValue": 0.000000,
         "itemType": "ALERT",
         "detail": "脑血管、心脏、周围动静脉、主动脉"
@@ -2679,9 +2435,8 @@
       {
         "diseaseName": "二尖瓣狭窄",
         "riskLevel": 1,
-        "organName": "心脏",
         "systemCode": "4",
-        "value": 0.010000,
+        "value": 0.001971,
         "itemDValue": 0.000000,
         "itemType": "ALERT",
         "detail": "心脏"
@@ -2689,9 +2444,8 @@
       {
         "diseaseName": "高血脂症",
         "riskLevel": 1,
-        "organName": "主动脉",
         "systemCode": "4",
-        "value": 0.010000,
+        "value": 0.005297,
         "itemDValue": 0.000000,
         "itemType": "ALERT",
         "detail": "脑血管、心脏、周围动静脉、主动脉"
@@ -2699,7 +2453,6 @@
       {
         "diseaseName": "类风湿性心脏炎",
         "riskLevel": 2,
-        "organName": "心脏",
         "systemCode": "4",
         "value": 0.091000,
         "itemDValue": 0.000000,
@@ -2709,7 +2462,6 @@
       {
         "diseaseName": "脑部循环不良",
         "riskLevel": 2,
-        "organName": "脑血管",
         "systemCode": "4",
         "value": 0.405000,
         "itemDValue": 0.000000,
@@ -2719,9 +2471,8 @@
       {
         "diseaseName": "脑膜炎",
         "riskLevel": 1,
-        "organName": "脑血管",
         "systemCode": "4",
-        "value": 0.010000,
+        "value": 0.001377,
         "itemDValue": 0.000000,
         "itemType": "ALERT",
         "detail": "脑血管"
@@ -2729,9 +2480,8 @@
       {
         "diseaseName": "脑震荡",
         "riskLevel": 1,
-        "organName": "脑血管",
         "systemCode": "4",
-        "value": 0.010000,
+        "value": 0.001616,
         "itemDValue": 0.000000,
         "itemType": "ALERT",
         "detail": "脑血管"
@@ -2739,9 +2489,8 @@
       {
         "diseaseName": "心肺衰竭",
         "riskLevel": 1,
-        "organName": "心脏",
         "systemCode": "4",
-        "value": 0.010000,
+        "value": 0.002665,
         "itemDValue": 0.000000,
         "itemType": "ALERT",
         "detail": "心脏"
@@ -2749,9 +2498,8 @@
       {
         "diseaseName": "心肌肥大",
         "riskLevel": 1,
-        "organName": "心脏",
         "systemCode": "4",
-        "value": 0.010000,
+        "value": 0.002635,
         "itemDValue": 0.000000,
         "itemType": "ALERT",
         "detail": "心脏"
@@ -2759,9 +2507,8 @@
       {
         "diseaseName": "心肌梗塞",
         "riskLevel": 1,
-        "organName": "心脏",
         "systemCode": "4",
-        "value": 0.010000,
+        "value": 0.001435,
         "itemDValue": 0.000000,
         "itemType": "ALERT",
         "detail": "心脏"
@@ -2769,7 +2516,6 @@
       {
         "diseaseName": "心律失常",
         "riskLevel": 3,
-        "organName": "心脏",
         "systemCode": "4",
         "value": 0.753000,
         "itemDValue": 0.000000,
@@ -2779,9 +2525,8 @@
       {
         "diseaseName": "心内膜炎",
         "riskLevel": 1,
-        "organName": "心脏",
         "systemCode": "4",
-        "value": 0.010000,
+        "value": 0.002407,
         "itemDValue": 0.000000,
         "itemType": "ALERT",
         "detail": "心脏"
@@ -2789,7 +2534,6 @@
       {
         "diseaseName": "心脏病",
         "riskLevel": 3,
-        "organName": "心脏",
         "systemCode": "4",
         "value": 0.623000,
         "itemDValue": 0.000000,
@@ -2799,17 +2543,15 @@
       {
         "diseaseName": "心脏动脉瘤",
         "riskLevel": 1,
-        "organName": "心脏",
         "systemCode": "4",
-        "value": 0.010000,
+        "value": 0.001952,
         "itemDValue": 0.000000,
         "itemType": "ALERT",
         "detail": "心脏"
       },
       {
         "diseaseName": "原发性高血压",
-        "riskLevel": 4,
-        "organName": "主动脉",
+        "riskLevel": 3,
         "systemCode": "4",
         "value": 1.057000,
         "itemDValue": 0.000000,
@@ -2819,9 +2561,8 @@
       {
         "diseaseName": "阵发性心跳过速",
         "riskLevel": 1,
-        "organName": "心脏",
         "systemCode": "4",
-        "value": 0.010000,
+        "value": 0.000840,
         "itemDValue": 0.000000,
         "itemType": "ALERT",
         "detail": "心脏"
@@ -2829,9 +2570,8 @@
       {
         "diseaseName": "主动脉瘤",
         "riskLevel": 1,
-        "organName": "主动脉",
         "systemCode": "4",
-        "value": 0.010000,
+        "value": 0.004544,
         "itemDValue": 0.000000,
         "itemType": "ALERT",
         "detail": "周围主静脉、主动脉"
@@ -2839,9 +2579,8 @@
       {
         "diseaseName": "主动脉狭窄",
         "riskLevel": 1,
-        "organName": "心脏",
         "systemCode": "4",
-        "value": 0.010000,
+        "value": 0.002710,
         "itemDValue": 0.000000,
         "itemType": "ALERT",
         "detail": "心脏、主动脉"
@@ -2851,7 +2590,6 @@
       {
         "diseaseName": "睾丸动脉",
         "riskLevel": 1,
-        "organName": "睪丸",
         "systemCode": "8",
         "value": 0.033000,
         "itemDValue": 0.000000,
@@ -2861,7 +2599,6 @@
       {
         "diseaseName": "睾丸静脉",
         "riskLevel": 1,
-        "organName": "睪丸",
         "systemCode": "8",
         "value": 0.023000,
         "itemDValue": 0.000000,
@@ -2871,7 +2608,6 @@
       {
         "diseaseName": "精阜",
         "riskLevel": 1,
-        "organName": "膀胱",
         "systemCode": "8",
         "value": 0.015000,
         "itemDValue": 0.000000,
@@ -2881,7 +2617,6 @@
       {
         "diseaseName": "精囊",
         "riskLevel": 1,
-        "organName": "睪丸",
         "systemCode": "8",
         "value": 0.017000,
         "itemDValue": 0.000000,
@@ -2891,7 +2626,6 @@
       {
         "diseaseName": "膀胱",
         "riskLevel": 4,
-        "organName": "膀胱",
         "systemCode": "8",
         "value": 1.150000,
         "itemDValue": 0.000000,
@@ -2901,7 +2635,6 @@
       {
         "diseaseName": "膀胱动脉",
         "riskLevel": 1,
-        "organName": "膀胱",
         "systemCode": "8",
         "value": 0.042000,
         "itemDValue": 0.000000,
@@ -2911,7 +2644,6 @@
       {
         "diseaseName": "前列腺",
         "riskLevel": 1,
-        "organName": "前列腺",
         "systemCode": "8",
         "value": 0.017000,
         "itemDValue": 0.000000,
@@ -2920,8 +2652,7 @@
       },
       {
         "diseaseName": "肾动脉",
-        "riskLevel": 1,
-        "organName": "肾",
+        "riskLevel": 2,
         "systemCode": "8",
         "value": 0.131000,
         "itemDValue": 0.000000,
@@ -2931,7 +2662,6 @@
       {
         "diseaseName": "肾静脉",
         "riskLevel": 1,
-        "organName": "肾",
         "systemCode": "8",
         "value": 0.025000,
         "itemDValue": 0.000000,
@@ -2941,7 +2671,6 @@
       {
         "diseaseName": "肾盂",
         "riskLevel": 1,
-        "organName": "肾",
         "systemCode": "8",
         "value": 0.018000,
         "itemDValue": 0.000000,
@@ -2951,7 +2680,6 @@
       {
         "diseaseName": "肾脏",
         "riskLevel": 4,
-        "organName": "肾",
         "systemCode": "8",
         "value": 1.150000,
         "itemDValue": 0.000000,
@@ -2961,7 +2689,6 @@
       {
         "diseaseName": "输精管",
         "riskLevel": 1,
-        "organName": "睪丸",
         "systemCode": "8",
         "value": 0.016000,
         "itemDValue": 0.000000,
@@ -2970,8 +2697,7 @@
       },
       {
         "diseaseName": "输精管动脉",
-        "riskLevel": 1,
-        "organName": "膀胱",
+        "riskLevel": 2,
         "systemCode": "8",
         "value": 0.057000,
         "itemDValue": 0.000000,
@@ -2981,7 +2707,6 @@
       {
         "diseaseName": "输尿管",
         "riskLevel": 1,
-        "organName": "肾",
         "systemCode": "8",
         "value": 0.017000,
         "itemDValue": 0.000000,
@@ -2993,7 +2718,6 @@
       {
         "diseaseName": "肠道菌群失调",
         "riskLevel": 3,
-        "organName": "胰腺",
         "systemCode": "5",
         "value": 0.800000,
         "itemDValue": 0.000000,
@@ -3003,9 +2727,8 @@
       {
         "diseaseName": "肠息肉",
         "riskLevel": 1,
-        "organName": "肠道",
         "systemCode": "5",
-        "value": 0.010000,
+        "value": 0.001275,
         "itemDValue": 0.000000,
         "itemType": "ALERT",
         "detail": "肠道"
@@ -3013,9 +2736,8 @@
       {
         "diseaseName": "肠炎",
         "riskLevel": 1,
-        "organName": "肠道",
         "systemCode": "5",
-        "value": 0.010000,
+        "value": 0.012118,
         "itemDValue": 0.000000,
         "itemType": "ALERT",
         "detail": "肠道"
@@ -3023,7 +2745,6 @@
       {
         "diseaseName": "胆道感染",
         "riskLevel": 3,
-        "organName": "胆囊",
         "systemCode": "5",
         "value": 0.662000,
         "itemDValue": 0.000000,
@@ -3033,9 +2754,8 @@
       {
         "diseaseName": "胆结石",
         "riskLevel": 1,
-        "organName": "肝",
         "systemCode": "5",
-        "value": 0.010000,
+        "value": 0.034578,
         "itemDValue": 0.000000,
         "itemType": "ALERT",
         "detail": "胆囊、肝"
@@ -3043,9 +2763,8 @@
       {
         "diseaseName": "肝囊肿",
         "riskLevel": 1,
-        "organName": "肝",
         "systemCode": "5",
-        "value": 0.010000,
+        "value": 0.001280,
         "itemDValue": 0.000000,
         "itemType": "ALERT",
         "detail": "肝"
@@ -3053,9 +2772,8 @@
       {
         "diseaseName": "肝炎",
         "riskLevel": 1,
-        "organName": "肝",
         "systemCode": "5",
-        "value": 0.010000,
+        "value": 0.005414,
         "itemDValue": 0.000000,
         "itemType": "ALERT",
         "detail": "肝"
@@ -3063,9 +2781,8 @@
       {
         "diseaseName": "肝硬化",
         "riskLevel": 1,
-        "organName": "肝",
         "systemCode": "5",
-        "value": 0.010000,
+        "value": 0.001849,
         "itemDValue": 0.000000,
         "itemType": "ALERT",
         "detail": "肝"
@@ -3073,9 +2790,8 @@
       {
         "diseaseName": "功能性消化不良",
         "riskLevel": 1,
-        "organName": "肠道",
         "systemCode": "5",
-        "value": 0.010000,
+        "value": 0.001704,
         "itemDValue": 0.000000,
         "itemType": "ALERT",
         "detail": "肠道"
@@ -3083,7 +2799,6 @@
       {
         "diseaseName": "结肠炎",
         "riskLevel": 3,
-        "organName": "肠道",
         "systemCode": "5",
         "value": 0.662000,
         "itemDValue": 0.000000,
@@ -3093,9 +2808,8 @@
       {
         "diseaseName": "酒精性肝炎",
         "riskLevel": 1,
-        "organName": "肝",
         "systemCode": "5",
-        "value": 0.010000,
+        "value": 0.001712,
         "itemDValue": 0.000000,
         "itemType": "ALERT",
         "detail": "肝"
@@ -3103,9 +2817,8 @@
       {
         "diseaseName": "慢性糜烂性胃炎",
         "riskLevel": 1,
-        "organName": "胃",
         "systemCode": "5",
-        "value": 0.010000,
+        "value": 0.041771,
         "itemDValue": 0.000000,
         "itemType": "ALERT",
         "detail": "胰腺、胃"
@@ -3113,9 +2826,8 @@
       {
         "diseaseName": "贫血",
         "riskLevel": 1,
-        "organName": "肝",
         "systemCode": "5",
-        "value": 0.010000,
+        "value": 0.001974,
         "itemDValue": 0.000000,
         "itemType": "ALERT",
         "detail": "肝"
@@ -3123,7 +2835,6 @@
       {
         "diseaseName": "十二指肠炎",
         "riskLevel": 3,
-        "organName": "胰腺",
         "systemCode": "5",
         "value": 0.835000,
         "itemDValue": 0.000000,
@@ -3133,9 +2844,8 @@
       {
         "diseaseName": "萎缩性胃炎",
         "riskLevel": 1,
-        "organName": "胰腺",
         "systemCode": "5",
-        "value": 0.010000,
+        "value": 0.002499,
         "itemDValue": 0.000000,
         "itemType": "ALERT",
         "detail": "胰腺、胃"
@@ -3143,9 +2853,8 @@
       {
         "diseaseName": "胃溃疡",
         "riskLevel": 1,
-        "organName": "胃",
         "systemCode": "5",
-        "value": 0.010000,
+        "value": 0.013635,
         "itemDValue": 0.000000,
         "itemType": "ALERT",
         "detail": "胰腺、胃"
@@ -3153,9 +2862,8 @@
       {
         "diseaseName": "胃食管反流病（GERD）",
         "riskLevel": 1,
-        "organName": "胃",
         "systemCode": "5",
-        "value": 0.010000,
+        "value": 0.003538,
         "itemDValue": 0.000000,
         "itemType": "ALERT",
         "detail": "胰腺、胃"
@@ -3163,9 +2871,8 @@
       {
         "diseaseName": "胃炎",
         "riskLevel": 1,
-        "organName": "胃",
         "systemCode": "5",
-        "value": 0.010000,
+        "value": 0.001293,
         "itemDValue": 0.000000,
         "itemType": "ALERT",
         "detail": "胃"
@@ -3173,9 +2880,8 @@
       {
         "diseaseName": "胰腺炎",
         "riskLevel": 1,
-        "organName": "胰腺",
         "systemCode": "5",
-        "value": 0.010000,
+        "value": 0.001950,
         "itemDValue": 0.000000,
         "itemType": "ALERT",
         "detail": "胰腺"
@@ -3183,9 +2889,8 @@
       {
         "diseaseName": "痔疮",
         "riskLevel": 1,
-        "organName": "肠道",
         "systemCode": "5",
-        "value": 0.010000,
+        "value": 0.003042,
         "itemDValue": 0.000000,
         "itemType": "ALERT",
         "detail": "肠道、直肠"
@@ -3195,7 +2900,6 @@
       {
         "diseaseName": "表皮层",
         "riskLevel": 1,
-        "organName": "耳",
         "systemCode": "9",
         "value": 0.026000,
         "itemDValue": 0.000000,
@@ -3205,7 +2909,6 @@
       {
         "diseaseName": "耳",
         "riskLevel": 1,
-        "organName": "耳",
         "systemCode": "9",
         "value": 0.015000,
         "itemDValue": 0.000000,
@@ -3215,7 +2918,6 @@
       {
         "diseaseName": "耳蜗",
         "riskLevel": 1,
-        "organName": "耳",
         "systemCode": "9",
         "value": 0.016000,
         "itemDValue": 0.000000,
@@ -3225,7 +2927,6 @@
       {
         "diseaseName": "耳咽管",
         "riskLevel": 1,
-        "organName": "耳",
         "systemCode": "9",
         "value": 0.014000,
         "itemDValue": 0.000000,
@@ -3235,7 +2936,6 @@
       {
         "diseaseName": "巩膜",
         "riskLevel": 1,
-        "organName": "眼",
         "systemCode": "9",
         "value": 0.013000,
         "itemDValue": 0.000000,
@@ -3245,7 +2945,6 @@
       {
         "diseaseName": "汗腺",
         "riskLevel": 1,
-        "organName": "耳",
         "systemCode": "9",
         "value": 0.013000,
         "itemDValue": 0.000000,
@@ -3255,7 +2954,6 @@
       {
         "diseaseName": "虹膜",
         "riskLevel": 1,
-        "organName": "眼",
         "systemCode": "9",
         "value": 0.011000,
         "itemDValue": 0.000000,
@@ -3265,7 +2963,6 @@
       {
         "diseaseName": "肌皮神经",
         "riskLevel": 1,
-        "organName": "耳",
         "systemCode": "9",
         "value": 0.009000,
         "itemDValue": 0.000000,
@@ -3275,7 +2972,6 @@
       {
         "diseaseName": "角膜",
         "riskLevel": 1,
-        "organName": "眼",
         "systemCode": "9",
         "value": 0.013000,
         "itemDValue": 0.000000,
@@ -3285,7 +2981,6 @@
       {
         "diseaseName": "颈浅淋巴结",
         "riskLevel": 1,
-        "organName": "耳",
         "systemCode": "9",
         "value": 0.018000,
         "itemDValue": 0.000000,
@@ -3295,7 +2990,6 @@
       {
         "diseaseName": "迷路",
         "riskLevel": 1,
-        "organName": "耳",
         "systemCode": "9",
         "value": 0.016000,
         "itemDValue": 0.000000,
@@ -3305,7 +2999,6 @@
       {
         "diseaseName": "面神经",
         "riskLevel": 1,
-        "organName": "皮肤",
         "systemCode": "9",
         "value": 0.014000,
         "itemDValue": 0.000000,
@@ -3315,7 +3008,6 @@
       {
         "diseaseName": "皮肤",
         "riskLevel": 1,
-        "organName": "耳",
         "systemCode": "9",
         "value": 0.024000,
         "itemDValue": 0.000000,
@@ -3325,7 +3017,6 @@
       {
         "diseaseName": "皮脂腺",
         "riskLevel": 1,
-        "organName": "耳",
         "systemCode": "9",
         "value": 0.011000,
         "itemDValue": 0.000000,
@@ -3335,7 +3026,6 @@
       {
         "diseaseName": "三叉神经",
         "riskLevel": 1,
-        "organName": "皮肤",
         "systemCode": "9",
         "value": 0.017000,
         "itemDValue": 0.000000,
@@ -3345,7 +3035,6 @@
       {
         "diseaseName": "视神经",
         "riskLevel": 1,
-        "organName": "眼",
         "systemCode": "9",
         "value": 0.019000,
         "itemDValue": 0.000000,
@@ -3355,7 +3044,6 @@
       {
         "diseaseName": "视网膜",
         "riskLevel": 1,
-        "organName": "眼",
         "systemCode": "9",
         "value": 0.017000,
         "itemDValue": 0.000000,
@@ -3365,7 +3053,6 @@
       {
         "diseaseName": "蜗神经",
         "riskLevel": 1,
-        "organName": "耳",
         "systemCode": "9",
         "value": 0.012000,
         "itemDValue": 0.000000,
@@ -3375,7 +3062,6 @@
       {
         "diseaseName": "眼",
         "riskLevel": 1,
-        "organName": "眼",
         "systemCode": "9",
         "value": 0.017000,
         "itemDValue": 0.000000,
@@ -3385,7 +3071,6 @@
       {
         "diseaseName": "真皮",
         "riskLevel": 1,
-        "organName": "耳",
         "systemCode": "9",
         "value": 0.020000,
         "itemDValue": 0.000000,
@@ -3397,9 +3082,8 @@
       {
         "diseaseName": "阿兹海默病",
         "riskLevel": 1,
-        "organName": "脑",
         "systemCode": "6",
-        "value": 0.010000,
+        "value": 0.001388,
         "itemDValue": 0.000000,
         "itemType": "ALERT",
         "detail": "脑"
@@ -3407,9 +3091,8 @@
       {
         "diseaseName": "肌萎缩",
         "riskLevel": 1,
-        "organName": "脊神经",
         "systemCode": "6",
-        "value": 0.010000,
+        "value": 0.003235,
         "itemDValue": 0.000000,
         "itemType": "ALERT",
         "detail": "脊神经"
@@ -3417,9 +3100,8 @@
       {
         "diseaseName": "脊髓瘤",
         "riskLevel": 1,
-        "organName": "脊神经",
         "systemCode": "6",
-        "value": 0.010000,
+        "value": 0.002227,
         "itemDValue": 0.000000,
         "itemType": "ALERT",
         "detail": "脊神经"
@@ -3427,9 +3109,8 @@
       {
         "diseaseName": "脊髓膜炎",
         "riskLevel": 1,
-        "organName": "脊神经",
         "systemCode": "6",
-        "value": 0.010000,
+        "value": 0.003065,
         "itemDValue": 0.000000,
         "itemType": "ALERT",
         "detail": "脊神经"
@@ -3437,9 +3118,8 @@
       {
         "diseaseName": "脊髓炎",
         "riskLevel": 1,
-        "organName": "脊神经",
         "systemCode": "6",
-        "value": 0.010000,
+        "value": 0.004148,
         "itemDValue": 0.000000,
         "itemType": "ALERT",
         "detail": "脊神经、外周神经"
@@ -3447,9 +3127,8 @@
       {
         "diseaseName": "脊椎发育不良",
         "riskLevel": 1,
-        "organName": "脊神经",
         "systemCode": "6",
-        "value": 0.010000,
+        "value": 0.002916,
         "itemDValue": 0.000000,
         "itemType": "ALERT",
         "detail": "脊神经"
@@ -3457,9 +3136,8 @@
       {
         "diseaseName": "精神衰退",
         "riskLevel": 1,
-        "organName": "脑",
         "systemCode": "6",
-        "value": 0.010000,
+        "value": 0.001244,
         "itemDValue": 0.000000,
         "itemType": "ALERT",
         "detail": "脑"
@@ -3467,9 +3145,8 @@
       {
         "diseaseName": "肋间神经痛",
         "riskLevel": 1,
-        "organName": "脊神经",
         "systemCode": "6",
-        "value": 0.010000,
+        "value": 0.044803,
         "itemDValue": 0.000000,
         "itemType": "ALERT",
         "detail": "脊神经、外周神经"
@@ -3477,9 +3154,8 @@
       {
         "diseaseName": "马凡综合征",
         "riskLevel": 1,
-        "organName": "脊神经",
         "systemCode": "6",
-        "value": 0.010000,
+        "value": 0.003999,
         "itemDValue": 0.000000,
         "itemType": "ALERT",
         "detail": "脑、脊神经、外周神经"
@@ -3487,9 +3163,8 @@
       {
         "diseaseName": "帕金森氏症",
         "riskLevel": 1,
-        "organName": "脑",
         "systemCode": "6",
-        "value": 0.010000,
+        "value": 0.002030,
         "itemDValue": 0.000000,
         "itemType": "ALERT",
         "detail": "脑"
@@ -3497,9 +3172,8 @@
       {
         "diseaseName": "偏头痛",
         "riskLevel": 1,
-        "organName": "脑",
         "systemCode": "6",
-        "value": 0.010000,
+        "value": 0.002077,
         "itemDValue": 0.000000,
         "itemType": "ALERT",
         "detail": "脑、外周神经"
@@ -3507,9 +3181,8 @@
       {
         "diseaseName": "神经衰弱",
         "riskLevel": 1,
-        "organName": "脑",
         "systemCode": "6",
-        "value": 0.010000,
+        "value": 0.017562,
         "itemDValue": 0.000000,
         "itemType": "ALERT",
         "detail": "脑、脊神经、外周神经"
@@ -3517,9 +3190,8 @@
       {
         "diseaseName": "神经痛",
         "riskLevel": 1,
-        "organName": "外周神经",
         "systemCode": "6",
-        "value": 0.010000,
+        "value": 0.009099,
         "itemDValue": 0.000000,
         "itemType": "ALERT",
         "detail": "脑、脊神经、外周神经"
@@ -3527,9 +3199,8 @@
       {
         "diseaseName": "蜘蛛膜炎",
         "riskLevel": 1,
-        "organName": "脑",
         "systemCode": "6",
-        "value": 0.010000,
+        "value": 0.001383,
         "itemDValue": 0.000000,
         "itemType": "ALERT",
         "detail": "脑、外周神经"
@@ -3539,49 +3210,44 @@
       {
         "diseaseName": "C反应蛋白",
         "riskLevel": 4,
-        "organName": "胰岛",
         "systemCode": "11",
-        "value": 1.000000,
-        "itemDValue": 0.000000,
+        "value": 1.175000,
+        "itemDValue": 1.000000,
         "itemType": "BIOCHEMISTRY",
         "detail": "炎症、感染、心肌梗塞"
       },
       {
         "diseaseName": "白细胞",
-        "riskLevel": 4,
-        "organName": "甲状腺",
+        "riskLevel": 3,
         "systemCode": "11",
-        "value": 0.000000,
+        "value": 1.132000,
         "itemDValue": 0.000000,
         "itemType": "BIOCHEMISTRY",
         "detail": "感染、炎症、脾功能亢进、造血功能障碍"
       },
       {
         "diseaseName": "促甲状腺激素",
-        "riskLevel": 4,
-        "organName": "甲状腺",
+        "riskLevel": 3,
         "systemCode": "11",
-        "value": -1.000000,
-        "itemDValue": 0.000000,
+        "value": 1.062000,
+        "itemDValue": -1.000000,
         "itemType": "BIOCHEMISTRY",
         "detail": "甲状腺功能亢进和减退"
       },
       {
         "diseaseName": "促肾上腺皮质激素",
-        "riskLevel": 4,
-        "organName": "胰岛",
+        "riskLevel": 3,
         "systemCode": "11",
-        "value": 0.000000,
+        "value": 1.140000,
         "itemDValue": 0.000000,
         "itemType": "BIOCHEMISTRY",
         "detail": "肾上腺功能减退和分泌亢进"
       },
       {
         "diseaseName": "胆固醇",
-        "riskLevel": 4,
-        "organName": "胰岛",
+        "riskLevel": 3,
         "systemCode": "11",
-        "value": 0.000000,
+        "value": 1.137000,
         "itemDValue": 0.000000,
         "itemType": "BIOCHEMISTRY",
         "detail": "高脂血症、冠心病、心脑血管病"
@@ -3589,29 +3255,26 @@
       {
         "diseaseName": "甘油三脂",
         "riskLevel": 4,
-        "organName": "胰岛",
         "systemCode": "11",
-        "value": 0.000000,
+        "value": 1.165000,
         "itemDValue": 0.000000,
         "itemType": "BIOCHEMISTRY",
         "detail": "高脂血症、心脏病、肾病"
       },
       {
         "diseaseName": "谷丙转氨酶",
-        "riskLevel": 4,
-        "organName": "胰岛",
+        "riskLevel": 3,
         "systemCode": "11",
-        "value": 0.000000,
+        "value": 1.145000,
         "itemDValue": 0.000000,
         "itemType": "BIOCHEMISTRY",
         "detail": "肝胆疾病、心肌骨骼肌损伤"
       },
       {
         "diseaseName": "谷草转氨酶",
-        "riskLevel": 4,
-        "organName": "胰岛",
+        "riskLevel": 3,
         "systemCode": "11",
-        "value": 0.000000,
+        "value": 1.149000,
         "itemDValue": 0.000000,
         "itemType": "BIOCHEMISTRY",
         "detail": "肝胆疾病、心肌梗塞、心肌炎"
@@ -3619,69 +3282,62 @@
       {
         "diseaseName": "红细胞沉降率(ESR)",
         "riskLevel": 4,
-        "organName": "胰岛",
         "systemCode": "11",
-        "value": 1.000000,
-        "itemDValue": 0.000000,
+        "value": 1.179000,
+        "itemDValue": 1.000000,
         "itemType": "BIOCHEMISTRY",
         "detail": "各种炎症、组织损伤及坏死、恶性肿瘤、贫血"
       },
       {
         "diseaseName": "肌酸激酶",
-        "riskLevel": 4,
-        "organName": "胰岛",
+        "riskLevel": 3,
         "systemCode": "11",
-        "value": 0.000000,
+        "value": 1.139000,
         "itemDValue": 0.000000,
         "itemType": "BIOCHEMISTRY",
         "detail": "心肌或者肌肉的损伤"
       },
       {
         "diseaseName": "甲状腺素",
-        "riskLevel": 4,
-        "organName": "甲状腺",
+        "riskLevel": 3,
         "systemCode": "11",
-        "value": 0.000000,
+        "value": 1.149000,
         "itemDValue": 0.000000,
         "itemType": "BIOCHEMISTRY",
         "detail": "维持生长发育、代谢的作用"
       },
       {
         "diseaseName": "碱性磷酸酶",
-        "riskLevel": 4,
-        "organName": "胰岛",
+        "riskLevel": 3,
         "systemCode": "11",
-        "value": 0.000000,
+        "value": 1.129000,
         "itemDValue": 0.000000,
         "itemType": "BIOCHEMISTRY",
         "detail": "骨骼、肝胆系统疾病"
       },
       {
         "diseaseName": "淋巴细胞",
-        "riskLevel": 4,
-        "organName": "肾上腺",
+        "riskLevel": 3,
         "systemCode": "11",
-        "value": 0.000000,
+        "value": 1.142000,
         "itemDValue": 0.000000,
         "itemType": "BIOCHEMISTRY",
         "detail": "感染、血液病"
       },
       {
         "diseaseName": "尿19-酮类固醇",
-        "riskLevel": 4,
-        "organName": "肾上腺",
+        "riskLevel": 3,
         "systemCode": "11",
-        "value": -1.000000,
-        "itemDValue": 0.000000,
+        "value": 1.063000,
+        "itemDValue": -1.000000,
         "itemType": "BIOCHEMISTRY",
         "detail": "内分泌疾病"
       },
       {
         "diseaseName": "尿肌酐",
-        "riskLevel": 4,
-        "organName": "肾上腺",
+        "riskLevel": 3,
         "systemCode": "11",
-        "value": 0.000000,
+        "value": 1.144000,
         "itemDValue": 0.000000,
         "itemType": "BIOCHEMISTRY",
         "detail": "内分泌疾病、进食肉类、运动"
@@ -3689,19 +3345,17 @@
       {
         "diseaseName": "尿肾上腺素",
         "riskLevel": 4,
-        "organName": "肾上腺",
         "systemCode": "11",
-        "value": 0.000000,
+        "value": 1.161000,
         "itemDValue": 0.000000,
         "itemType": "BIOCHEMISTRY",
         "detail": "嗜铬细胞瘤"
       },
       {
         "diseaseName": "嗜酸性粒细胞",
-        "riskLevel": 4,
-        "organName": "胰岛",
+        "riskLevel": 3,
         "systemCode": "11",
-        "value": 0.000000,
+        "value": 1.119000,
         "itemDValue": 0.000000,
         "itemType": "BIOCHEMISTRY",
         "detail": "变态反应性疾病、感染、皮肤、血液、恶性肿瘤"
@@ -3709,30 +3363,27 @@
       {
         "diseaseName": "糖皮质激素",
         "riskLevel": 3,
-        "organName": "肾上腺",
         "systemCode": "11",
-        "value": -1.000000,
-        "itemDValue": 0.000000,
+        "value": 0.944000,
+        "itemDValue": -1.000000,
         "itemType": "BIOCHEMISTRY",
         "detail": "内分泌疾病"
       },
       {
         "diseaseName": "血钙",
         "riskLevel": 4,
-        "organName": "甲状腺",
         "systemCode": "11",
-        "value": 1.000000,
-        "itemDValue": 0.000000,
+        "value": 1.181000,
+        "itemDValue": 1.000000,
         "itemType": "BIOCHEMISTRY",
         "detail": "甲亢、肿瘤、肌痉挛"
       },
       {
         "diseaseName": "血肌酐",
         "riskLevel": 4,
-        "organName": "胰岛",
         "systemCode": "11",
-        "value": 1.000000,
-        "itemDValue": 0.000000,
+        "value": 1.178000,
+        "itemDValue": 1.000000,
         "itemType": "BIOCHEMISTRY",
         "detail": "肾病、心肌病"
       }
@@ -3741,9 +3392,8 @@
       {
         "diseaseName": "白斑症",
         "riskLevel": 1,
-        "organName": "气管",
         "systemCode": "7",
-        "value": 0.010000,
+        "value": 0.001422,
         "itemDValue": 0.000000,
         "itemType": "ALERT",
         "detail": "气管"
@@ -3751,17 +3401,15 @@
       {
         "diseaseName": "鼻部中膈偏曲",
         "riskLevel": 1,
-        "organName": "鼻",
         "systemCode": "7",
-        "value": 0.010000,
+        "value": 0.005529,
         "itemDValue": 0.000000,
         "itemType": "ALERT",
         "detail": "鼻"
       },
       {
         "diseaseName": "鼻炎",
-        "riskLevel": 4,
-        "organName": "鼻",
+        "riskLevel": 3,
         "systemCode": "7",
         "value": 1.030000,
         "itemDValue": 0.000000,
@@ -3771,9 +3419,8 @@
       {
         "diseaseName": "尘肺症",
         "riskLevel": 1,
-        "organName": "肺",
         "systemCode": "7",
-        "value": 0.010000,
+        "value": 0.002812,
         "itemDValue": 0.000000,
         "itemType": "ALERT",
         "detail": "胸膜、肺"
@@ -3781,9 +3428,8 @@
       {
         "diseaseName": "肺癌",
         "riskLevel": 1,
-        "organName": "肺",
         "systemCode": "7",
-        "value": 0.010000,
+        "value": 0.000838,
         "itemDValue": 0.000000,
         "itemType": "ALERT",
         "detail": "胸膜、气管、肺"
@@ -3791,9 +3437,8 @@
       {
         "diseaseName": "肺结核",
         "riskLevel": 1,
-        "organName": "肺",
         "systemCode": "7",
-        "value": 0.010000,
+        "value": 0.002031,
         "itemDValue": 0.000000,
         "itemType": "ALERT",
         "detail": "胸膜、气管、肺"
@@ -3801,9 +3446,8 @@
       {
         "diseaseName": "肺泡炎",
         "riskLevel": 1,
-        "organName": "肺",
         "systemCode": "7",
-        "value": 0.010000,
+        "value": 0.002383,
         "itemDValue": 0.000000,
         "itemType": "ALERT",
         "detail": "胸膜、肺"
@@ -3811,9 +3455,8 @@
       {
         "diseaseName": "肺炎",
         "riskLevel": 1,
-        "organName": "肺",
         "systemCode": "7",
-        "value": 0.010000,
+        "value": 0.002867,
         "itemDValue": 0.000000,
         "itemType": "ALERT",
         "detail": "胸膜、气管、肺"
@@ -3821,9 +3464,8 @@
       {
         "diseaseName": "腹泻",
         "riskLevel": 1,
-        "organName": "鼻",
         "systemCode": "7",
-        "value": 0.010000,
+        "value": 0.004953,
         "itemDValue": 0.000000,
         "itemType": "ALERT",
         "detail": "鼻"
@@ -3831,9 +3473,8 @@
       {
         "diseaseName": "过敏性喉炎",
         "riskLevel": 1,
-        "organName": "气管",
         "systemCode": "7",
-        "value": 0.010000,
+        "value": 0.003605,
         "itemDValue": 0.000000,
         "itemType": "ALERT",
         "detail": "气管"
@@ -3841,9 +3482,8 @@
       {
         "diseaseName": "红斑性狼疮",
         "riskLevel": 1,
-        "organName": "肺",
         "systemCode": "7",
-        "value": 0.010000,
+        "value": 0.001907,
         "itemDValue": 0.000000,
         "itemType": "ALERT",
         "detail": "胸膜、肺"
@@ -3851,9 +3491,8 @@
       {
         "diseaseName": "喉白斑病",
         "riskLevel": 1,
-        "organName": "气管",
         "systemCode": "7",
-        "value": 0.010000,
+        "value": 0.001789,
         "itemDValue": 0.000000,
         "itemType": "ALERT",
         "detail": "气管"
@@ -3861,9 +3500,8 @@
       {
         "diseaseName": "喉部肿瘤",
         "riskLevel": 1,
-        "organName": "气管",
         "systemCode": "7",
-        "value": 0.010000,
+        "value": 0.001402,
         "itemDValue": 0.000000,
         "itemType": "ALERT",
         "detail": "气管"
@@ -3871,9 +3509,8 @@
       {
         "diseaseName": "呼吸道感染",
         "riskLevel": 1,
-        "organName": "肺",
         "systemCode": "7",
-        "value": 0.010000,
+        "value": 0.006421,
         "itemDValue": 0.000000,
         "itemType": "ALERT",
         "detail": "鼻、胸膜、肺"
@@ -3881,9 +3518,8 @@
       {
         "diseaseName": "慢性支气管炎",
         "riskLevel": 1,
-        "organName": "肺",
         "systemCode": "7",
-        "value": 0.010000,
+        "value": 0.002278,
         "itemDValue": 0.000000,
         "itemType": "ALERT",
         "detail": "胸膜、气管、肺"
@@ -3891,7 +3527,6 @@
       {
         "diseaseName": "气管炎",
         "riskLevel": 2,
-        "organName": "气管",
         "systemCode": "7",
         "value": 0.350000,
         "itemDValue": 0.000000,
@@ -3901,9 +3536,8 @@
       {
         "diseaseName": "咽喉炎(感冒)",
         "riskLevel": 1,
-        "organName": "气管",
         "systemCode": "7",
-        "value": 0.010000,
+        "value": 0.005105,
         "itemDValue": 0.000000,
         "itemType": "ALERT",
         "detail": "气管"
@@ -3911,9 +3545,8 @@
       {
         "diseaseName": "阻塞性支气管炎",
         "riskLevel": 1,
-        "organName": "肺",
         "systemCode": "7",
-        "value": 0.010000,
+        "value": 0.001546,
         "itemDValue": 0.000000,
         "itemType": "ALERT",
         "detail": "胸膜、气管、肺"
@@ -3923,9 +3556,8 @@
       {
         "diseaseName": "动脉内膜炎",
         "riskLevel": 1,
-        "organName": "肾上腺",
         "systemCode": "11",
-        "value": 0.010000,
+        "value": 0.003244,
         "itemDValue": 0.000000,
         "itemType": "ALERT",
         "detail": "肾上腺"
@@ -3933,9 +3565,8 @@
       {
         "diseaseName": "放射病",
         "riskLevel": 1,
-        "organName": "肾上腺",
         "systemCode": "11",
-        "value": 0.010000,
+        "value": 0.001974,
         "itemDValue": 0.000000,
         "itemType": "ALERT",
         "detail": "肾上腺、甲状腺"
@@ -3943,9 +3574,8 @@
       {
         "diseaseName": "高血脂症",
         "riskLevel": 1,
-        "organName": "肾上腺",
         "systemCode": "11",
-        "value": 0.010000,
+        "value": 0.004702,
         "itemDValue": 0.000000,
         "itemType": "ALERT",
         "detail": "肾上腺、甲状腺"
@@ -3953,9 +3583,8 @@
       {
         "diseaseName": "红斑性狼疮",
         "riskLevel": 1,
-        "organName": "肾上腺",
         "systemCode": "11",
-        "value": 0.010000,
+        "value": 0.002836,
         "itemDValue": 0.000000,
         "itemType": "ALERT",
         "detail": "肾上腺、甲状腺"
@@ -3963,7 +3592,6 @@
       {
         "diseaseName": "甲状腺功能减退",
         "riskLevel": 4,
-        "organName": "甲状腺",
         "systemCode": "11",
         "value": 1.184000,
         "itemDValue": 0.000000,
@@ -3973,9 +3601,8 @@
       {
         "diseaseName": "甲状腺纤维瘤",
         "riskLevel": 1,
-        "organName": "甲状腺",
         "systemCode": "11",
-        "value": 0.010000,
+        "value": 0.001573,
         "itemDValue": 0.000000,
         "itemType": "ALERT",
         "detail": "甲状腺"
@@ -3983,9 +3610,8 @@
       {
         "diseaseName": "甲状腺血管瘤",
         "riskLevel": 1,
-        "organName": "甲状腺",
         "systemCode": "11",
-        "value": 0.010000,
+        "value": 0.001243,
         "itemDValue": 0.000000,
         "itemType": "ALERT",
         "detail": "甲状腺"
@@ -3993,9 +3619,8 @@
       {
         "diseaseName": "马凡综合征",
         "riskLevel": 1,
-        "organName": "甲状腺",
         "systemCode": "11",
-        "value": 0.010000,
+        "value": 0.002081,
         "itemDValue": 0.000000,
         "itemType": "ALERT",
         "detail": "甲状腺"
@@ -4003,9 +3628,8 @@
       {
         "diseaseName": "慢性复发性胰腺炎",
         "riskLevel": 1,
-        "organName": "胰岛",
         "systemCode": "11",
-        "value": 0.010000,
+        "value": 0.005732,
         "itemDValue": 0.000000,
         "itemType": "ALERT",
         "detail": "胰岛"
@@ -4013,9 +3637,8 @@
       {
         "diseaseName": "肾上腺瘤",
         "riskLevel": 1,
-        "organName": "肾上腺",
         "systemCode": "11",
-        "value": 0.010000,
+        "value": 0.004365,
         "itemDValue": 0.000000,
         "itemType": "ALERT",
         "detail": "肾上腺"
@@ -4023,17 +3646,15 @@
       {
         "diseaseName": "肾上腺萎缩",
         "riskLevel": 1,
-        "organName": "肾上腺",
         "systemCode": "11",
-        "value": 0.010000,
+        "value": 0.002843,
         "itemDValue": 0.000000,
         "itemType": "ALERT",
         "detail": "肾上腺"
       },
       {
         "diseaseName": "胰岛素依赖型糖尿病",
-        "riskLevel": 4,
-        "organName": "胰岛",
+        "riskLevel": 3,
         "systemCode": "11",
         "value": 1.031000,
         "itemDValue": 0.000000,
@@ -4043,9 +3664,8 @@
       {
         "diseaseName": "胰腺癌",
         "riskLevel": 1,
-        "organName": "胰岛",
         "systemCode": "11",
-        "value": 0.010000,
+        "value": 0.003906,
         "itemDValue": 0.000000,
         "itemType": "ALERT",
         "detail": "胰岛"
@@ -4053,9 +3673,8 @@
       {
         "diseaseName": "胰腺炎",
         "riskLevel": 1,
-        "organName": "胰岛",
         "systemCode": "11",
-        "value": 0.010000,
+        "value": 0.005744,
         "itemDValue": 0.000000,
         "itemType": "ALERT",
         "detail": "胰岛"
@@ -4063,9 +3682,8 @@
       {
         "diseaseName": "胰脏囊肿",
         "riskLevel": 1,
-        "organName": "胰岛",
         "systemCode": "11",
-        "value": 0.010000,
+        "value": 0.004072,
         "itemDValue": 0.000000,
         "itemType": "ALERT",
         "detail": "胰岛"
@@ -4073,17 +3691,15 @@
       {
         "diseaseName": "胰脏硬化病变",
         "riskLevel": 1,
-        "organName": "胰岛",
         "systemCode": "11",
-        "value": 0.010000,
+        "value": 0.010929,
         "itemDValue": 0.000000,
         "itemType": "ALERT",
         "detail": "胰岛"
       },
       {
         "diseaseName": "原发性高血压",
-        "riskLevel": 4,
-        "organName": "肾上腺",
+        "riskLevel": 3,
         "systemCode": "11",
         "value": 1.026000,
         "itemDValue": 0.000000,
@@ -4093,9 +3709,8 @@
       {
         "diseaseName": "自体免疫性甲状腺炎",
         "riskLevel": 1,
-        "organName": "甲状腺",
         "systemCode": "11",
-        "value": 0.010000,
+        "value": 0.000159,
         "itemDValue": 0.000000,
         "itemType": "ALERT",
         "detail": "甲状腺"
@@ -4105,19 +3720,17 @@
       {
         "diseaseName": "C反应蛋白",
         "riskLevel": 4,
-        "organName": "淋巴管",
         "systemCode": "10",
-        "value": 0.000000,
+        "value": 1.167000,
         "itemDValue": 0.000000,
         "itemType": "BIOCHEMISTRY",
         "detail": "炎症、感染、心肌梗塞"
       },
       {
         "diseaseName": "γ球蛋白",
-        "riskLevel": 4,
-        "organName": "淋巴管",
+        "riskLevel": 3,
         "systemCode": "10",
-        "value": 0.000000,
+        "value": 1.118000,
         "itemDValue": 0.000000,
         "itemType": "BIOCHEMISTRY",
         "detail": "感染、肾病、自身免疫性疾病"
@@ -4125,59 +3738,53 @@
       {
         "diseaseName": "白细胞",
         "riskLevel": 4,
-        "organName": "淋巴结",
         "systemCode": "10",
-        "value": 0.000000,
+        "value": 1.162000,
         "itemDValue": 0.000000,
         "itemType": "BIOCHEMISTRY",
         "detail": "感染、炎症、脾功能亢进、造血功能障碍"
       },
       {
         "diseaseName": "单核细胞",
-        "riskLevel": 4,
-        "organName": "淋巴结",
+        "riskLevel": 3,
         "systemCode": "10",
-        "value": 0.000000,
+        "value": 1.123000,
         "itemDValue": 0.000000,
         "itemType": "BIOCHEMISTRY",
         "detail": "感染"
       },
       {
         "diseaseName": "分叶核中性粒细胞",
-        "riskLevel": 4,
-        "organName": "淋巴结",
+        "riskLevel": 3,
         "systemCode": "10",
-        "value": 0.000000,
+        "value": 1.133000,
         "itemDValue": 0.000000,
         "itemType": "BIOCHEMISTRY",
         "detail": "感染"
       },
       {
         "diseaseName": "谷丙转氨酶",
-        "riskLevel": 4,
-        "organName": "淋巴管",
+        "riskLevel": 3,
         "systemCode": "10",
-        "value": 0.000000,
+        "value": 1.135000,
         "itemDValue": 0.000000,
         "itemType": "BIOCHEMISTRY",
         "detail": "肝胆疾病、心肌骨骼肌损伤"
       },
       {
         "diseaseName": "谷草转氨酶",
-        "riskLevel": 4,
-        "organName": "淋巴管",
+        "riskLevel": 3,
         "systemCode": "10",
-        "value": 0.000000,
+        "value": 1.127000,
         "itemDValue": 0.000000,
         "itemType": "BIOCHEMISTRY",
         "detail": "肝胆疾病、心肌梗塞、心肌炎"
       },
       {
         "diseaseName": "红细胞",
-        "riskLevel": 4,
-        "organName": "淋巴结",
+        "riskLevel": 3,
         "systemCode": "10",
-        "value": 0.000000,
+        "value": 1.154000,
         "itemDValue": 0.000000,
         "itemType": "BIOCHEMISTRY",
         "detail": "贫血、感染"
@@ -4185,9 +3792,8 @@
       {
         "diseaseName": "红细胞沉降率(ESR)",
         "riskLevel": 4,
-        "organName": "脾脏",
         "systemCode": "10",
-        "value": 0.000000,
+        "value": 1.162000,
         "itemDValue": 0.000000,
         "itemType": "BIOCHEMISTRY",
         "detail": "各种炎症、组织损伤及坏死、恶性肿瘤、贫血"
@@ -4195,19 +3801,17 @@
       {
         "diseaseName": "肌酸激酶",
         "riskLevel": 4,
-        "organName": "淋巴管",
         "systemCode": "10",
-        "value": 1.000000,
-        "itemDValue": 0.000000,
+        "value": 1.171000,
+        "itemDValue": 1.000000,
         "itemType": "BIOCHEMISTRY",
         "detail": "心肌或者肌肉的损伤"
       },
       {
         "diseaseName": "碱性磷酸酶",
-        "riskLevel": 4,
-        "organName": "淋巴管",
+        "riskLevel": 3,
         "systemCode": "10",
-        "value": 0.000000,
+        "value": 1.107000,
         "itemDValue": 0.000000,
         "itemType": "BIOCHEMISTRY",
         "detail": "骨骼、肝胆系统疾病"
@@ -4215,59 +3819,53 @@
       {
         "diseaseName": "淋巴细胞",
         "riskLevel": 4,
-        "organName": "淋巴结",
         "systemCode": "10",
-        "value": 1.000000,
-        "itemDValue": 0.000000,
+        "value": 1.171000,
+        "itemDValue": 1.000000,
         "itemType": "BIOCHEMISTRY",
         "detail": "感染、血液病"
       },
       {
         "diseaseName": "乳酸脱氢酶",
         "riskLevel": 4,
-        "organName": "淋巴管",
         "systemCode": "10",
-        "value": 0.000000,
+        "value": 1.165000,
         "itemDValue": 0.000000,
         "itemType": "BIOCHEMISTRY",
         "detail": "肝病、肿瘤、心肌梗塞"
       },
       {
         "diseaseName": "嗜碱性粒细胞",
-        "riskLevel": 4,
-        "organName": "淋巴结",
+        "riskLevel": 3,
         "systemCode": "10",
-        "value": 0.000000,
+        "value": 1.126000,
         "itemDValue": 0.000000,
         "itemType": "BIOCHEMISTRY",
         "detail": "过敏性疾病、血液病、恶性肿瘤"
       },
       {
         "diseaseName": "嗜酸性粒细胞",
-        "riskLevel": 4,
-        "organName": "淋巴结",
+        "riskLevel": 3,
         "systemCode": "10",
-        "value": 0.000000,
+        "value": 1.140000,
         "itemDValue": 0.000000,
         "itemType": "BIOCHEMISTRY",
         "detail": "变态反应性疾病、感染、皮肤、血液、恶性肿瘤"
       },
       {
         "diseaseName": "血钙",
-        "riskLevel": 4,
-        "organName": "淋巴管",
+        "riskLevel": 3,
         "systemCode": "10",
-        "value": 0.000000,
+        "value": 1.138000,
         "itemDValue": 0.000000,
         "itemType": "BIOCHEMISTRY",
         "detail": "甲亢、肿瘤、肌痉挛"
       },
       {
         "diseaseName": "血红蛋白",
-        "riskLevel": 4,
-        "organName": "脾脏",
+        "riskLevel": 3,
         "systemCode": "10",
-        "value": 0.000000,
+        "value": 1.131000,
         "itemDValue": 0.000000,
         "itemType": "BIOCHEMISTRY",
         "detail": "血液病"
@@ -4275,19 +3873,17 @@
       {
         "diseaseName": "血肌酐",
         "riskLevel": 4,
-        "organName": "淋巴管",
         "systemCode": "10",
-        "value": 1.000000,
-        "itemDValue": 0.000000,
+        "value": 1.171000,
+        "itemDValue": 1.000000,
         "itemType": "BIOCHEMISTRY",
         "detail": "肾病、心肌病"
       },
       {
         "diseaseName": "血浆脂蛋白",
-        "riskLevel": 4,
-        "organName": "淋巴管",
+        "riskLevel": 3,
         "systemCode": "10",
-        "value": 0.000000,
+        "value": 1.102000,
         "itemDValue": 0.000000,
         "itemType": "BIOCHEMISTRY",
         "detail": "高脂血症、肝病、血液病"
@@ -4295,9 +3891,8 @@
       {
         "diseaseName": "血尿素氮",
         "riskLevel": 4,
-        "organName": "淋巴管",
         "systemCode": "10",
-        "value": 0.000000,
+        "value": 1.164000,
         "itemDValue": 0.000000,
         "itemType": "BIOCHEMISTRY",
         "detail": "肾病、心衰、烧伤"
@@ -4307,9 +3902,8 @@
       {
         "diseaseName": "单核细胞增多症",
         "riskLevel": 1,
-        "organName": "淋巴管",
         "systemCode": "10",
-        "value": 0.010000,
+        "value": 0.005643,
         "itemDValue": 0.000000,
         "itemType": "ALERT",
         "detail": "黏膜相关淋巴组织、脾脏、淋巴结、淋巴管"
@@ -4317,9 +3911,8 @@
       {
         "diseaseName": "放射病",
         "riskLevel": 1,
-        "organName": "淋巴结",
         "systemCode": "10",
-        "value": 0.010000,
+        "value": 0.002213,
         "itemDValue": 0.000000,
         "itemType": "ALERT",
         "detail": "黏膜相关淋巴组织、脾脏、淋巴结、淋巴管"
@@ -4327,9 +3920,8 @@
       {
         "diseaseName": "高血脂症",
         "riskLevel": 1,
-        "organName": "脾脏",
         "systemCode": "10",
-        "value": 0.010000,
+        "value": 0.005127,
         "itemDValue": 0.000000,
         "itemType": "ALERT",
         "detail": "黏膜相关淋巴组织、脾脏、淋巴结"
@@ -4337,9 +3929,8 @@
       {
         "diseaseName": "骨髓瘤",
         "riskLevel": 1,
-        "organName": "淋巴结",
         "systemCode": "10",
-        "value": 0.010000,
+        "value": 0.002350,
         "itemDValue": 0.000000,
         "itemType": "ALERT",
         "detail": "黏膜相关淋巴组织、脾脏、淋巴结"
@@ -4347,9 +3938,8 @@
       {
         "diseaseName": "红斑性狼疮",
         "riskLevel": 1,
-        "organName": "脾脏",
         "systemCode": "10",
-        "value": 0.010000,
+        "value": 0.004610,
         "itemDValue": 0.000000,
         "itemType": "ALERT",
         "detail": "黏膜相关淋巴组织、脾脏、淋巴结、淋巴管"
@@ -4357,9 +3947,8 @@
       {
         "diseaseName": "淋巴管炎",
         "riskLevel": 1,
-        "organName": "淋巴结",
         "systemCode": "10",
-        "value": 0.010000,
+        "value": 0.006327,
         "itemDValue": 0.000000,
         "itemType": "ALERT",
         "detail": "黏膜相关淋巴组织、脾脏、淋巴结、淋巴管"
@@ -4367,9 +3956,8 @@
       {
         "diseaseName": "淋巴瘤",
         "riskLevel": 1,
-        "organName": "脾脏",
         "systemCode": "10",
-        "value": 0.010000,
+        "value": 0.001772,
         "itemDValue": 0.000000,
         "itemType": "ALERT",
         "detail": "脾脏"
@@ -4377,9 +3965,8 @@
       {
         "diseaseName": "马凡综合征",
         "riskLevel": 1,
-        "organName": "淋巴结",
         "systemCode": "10",
-        "value": 0.010000,
+        "value": 0.004070,
         "itemDValue": 0.000000,
         "itemType": "ALERT",
         "detail": "黏膜相关淋巴组织、脾脏、淋巴结"
@@ -4387,9 +3974,8 @@
       {
         "diseaseName": "脾脏肿大",
         "riskLevel": 1,
-        "organName": "脾脏",
         "systemCode": "10",
-        "value": 0.010000,
+        "value": 0.028653,
         "itemDValue": 0.000000,
         "itemType": "ALERT",
         "detail": "脾脏"
@@ -4397,9 +3983,8 @@
       {
         "diseaseName": "贫血",
         "riskLevel": 1,
-        "organName": "淋巴结",
         "systemCode": "10",
-        "value": 0.010000,
+        "value": 0.004415,
         "itemDValue": 0.000000,
         "itemType": "ALERT",
         "detail": "脾脏"
@@ -4407,9 +3992,8 @@
       {
         "diseaseName": "缺铁性贫血",
         "riskLevel": 1,
-        "organName": "脾脏",
         "systemCode": "10",
-        "value": 0.010000,
+        "value": 0.003169,
         "itemDValue": 0.000000,
         "itemType": "ALERT",
         "detail": "脾脏"
@@ -4417,9 +4001,8 @@
       {
         "diseaseName": "溶血性贫血",
         "riskLevel": 1,
-        "organName": "脾脏",
         "systemCode": "10",
-        "value": 0.010000,
+        "value": 0.002254,
         "itemDValue": 0.000000,
         "itemType": "ALERT",
         "detail": "脾脏"
@@ -4427,9 +4010,8 @@
       {
         "diseaseName": "血友病",
         "riskLevel": 1,
-        "organName": "脾脏",
         "systemCode": "10",
-        "value": 0.010000,
+        "value": 0.003565,
         "itemDValue": 0.000000,
         "itemType": "ALERT",
         "detail": "脾脏"
@@ -4439,9 +4021,8 @@
       {
         "diseaseName": "多囊肾",
         "riskLevel": 1,
-        "organName": "肾",
         "systemCode": "8",
-        "value": 0.010000,
+        "value": 0.001997,
         "itemDValue": 0.000000,
         "itemType": "ALERT",
         "detail": "肾"
@@ -4449,9 +4030,8 @@
       {
         "diseaseName": "高尿酸盐症",
         "riskLevel": 1,
-        "organName": "膀胱",
         "systemCode": "8",
-        "value": 0.010000,
+        "value": 0.002336,
         "itemDValue": 0.000000,
         "itemType": "ALERT",
         "detail": "膀胱、肾"
@@ -4459,7 +4039,6 @@
       {
         "diseaseName": "慢性肾小球肾炎",
         "riskLevel": 2,
-        "organName": "肾",
         "systemCode": "8",
         "value": 0.108000,
         "itemDValue": 0.000000,
@@ -4469,9 +4048,8 @@
       {
         "diseaseName": "尿崩症",
         "riskLevel": 1,
-        "organName": "肾",
         "systemCode": "8",
-        "value": 0.010000,
+        "value": 0.002747,
         "itemDValue": 0.000000,
         "itemType": "ALERT",
         "detail": "肾"
@@ -4479,9 +4057,8 @@
       {
         "diseaseName": "尿道结石症",
         "riskLevel": 1,
-        "organName": "膀胱",
         "systemCode": "8",
-        "value": 0.010000,
+        "value": 0.001949,
         "itemDValue": 0.000000,
         "itemType": "ALERT",
         "detail": "膀胱、肾"
@@ -4489,7 +4066,6 @@
       {
         "diseaseName": "膀胱肾盂炎",
         "riskLevel": 3,
-        "organName": "膀胱",
         "systemCode": "8",
         "value": 0.869000,
         "itemDValue": 0.000000,
@@ -4499,7 +4075,6 @@
       {
         "diseaseName": "膀胱疼痛综合征",
         "riskLevel": 2,
-        "organName": "膀胱",
         "systemCode": "8",
         "value": 0.434000,
         "itemDValue": 0.000000,
@@ -4509,7 +4084,6 @@
       {
         "diseaseName": "膀胱炎",
         "riskLevel": 3,
-        "organName": "膀胱",
         "systemCode": "8",
         "value": 0.850000,
         "itemDValue": 0.000000,
@@ -4519,9 +4093,8 @@
       {
         "diseaseName": "前列腺癌",
         "riskLevel": 1,
-        "organName": "前列腺",
         "systemCode": "8",
-        "value": 0.010000,
+        "value": 0.001561,
         "itemDValue": 0.000000,
         "itemType": "ALERT",
         "detail": "前列腺、膀胱"
@@ -4529,9 +4102,8 @@
       {
         "diseaseName": "前列腺囊肿",
         "riskLevel": 1,
-        "organName": "前列腺",
         "systemCode": "8",
-        "value": 0.010000,
+        "value": 0.006683,
         "itemDValue": 0.000000,
         "itemType": "ALERT",
         "detail": "前列腺、膀胱"
@@ -4539,9 +4111,8 @@
       {
         "diseaseName": "前列腺炎",
         "riskLevel": 1,
-        "organName": "膀胱",
         "systemCode": "8",
-        "value": 0.010000,
+        "value": 0.005713,
         "itemDValue": 0.000000,
         "itemType": "ALERT",
         "detail": "前列腺、膀胱"
@@ -4549,9 +4120,8 @@
       {
         "diseaseName": "肾癌",
         "riskLevel": 1,
-        "organName": "肾",
         "systemCode": "8",
-        "value": 0.010000,
+        "value": 0.000796,
         "itemDValue": 0.000000,
         "itemType": "ALERT",
         "detail": "肾"
@@ -4559,9 +4129,8 @@
       {
         "diseaseName": "肾结石",
         "riskLevel": 1,
-        "organName": "肾",
         "systemCode": "8",
-        "value": 0.010000,
+        "value": 0.002091,
         "itemDValue": 0.000000,
         "itemType": "ALERT",
         "detail": "肾"
@@ -4569,9 +4138,8 @@
       {
         "diseaseName": "肾下垂",
         "riskLevel": 1,
-        "organName": "肾",
         "systemCode": "8",
-        "value": 0.010000,
+        "value": 0.004030,
         "itemDValue": 0.000000,
         "itemType": "ALERT",
         "detail": "肾"
@@ -4579,9 +4147,8 @@
       {
         "diseaseName": "肾盂肾炎",
         "riskLevel": 1,
-        "organName": "肾",
         "systemCode": "8",
-        "value": 0.010000,
+        "value": 0.001439,
         "itemDValue": 0.000000,
         "itemType": "ALERT",
         "detail": "肾"
@@ -4589,9 +4156,8 @@
       {
         "diseaseName": "输尿管肿瘤",
         "riskLevel": 1,
-        "organName": "肾",
         "systemCode": "8",
-        "value": 0.010000,
+        "value": 0.000792,
         "itemDValue": 0.000000,
         "itemType": "ALERT",
         "detail": "肾"
@@ -4599,9 +4165,8 @@
       {
         "diseaseName": "无精虫症",
         "riskLevel": 1,
-        "organName": "前列腺",
         "systemCode": "8",
-        "value": 0.010000,
+        "value": 0.006124,
         "itemDValue": 0.000000,
         "itemType": "ALERT",
         "detail": "膀胱、睪丸、前列腺"
@@ -4609,9 +4174,8 @@
       {
         "diseaseName": "性腺机能减退",
         "riskLevel": 1,
-        "organName": "睪丸",
         "systemCode": "8",
-        "value": 0.010000,
+        "value": 0.002623,
         "itemDValue": 0.000000,
         "itemType": "ALERT",
         "detail": "睪丸"
@@ -4621,9 +4185,8 @@
       {
         "diseaseName": "痤疮",
         "riskLevel": 1,
-        "organName": "皮肤",
         "systemCode": "9",
-        "value": 0.010000,
+        "value": 0.005292,
         "itemDValue": 0.000000,
         "itemType": "ALERT",
         "detail": "皮肤"
@@ -4631,9 +4194,8 @@
       {
         "diseaseName": "耳炎",
         "riskLevel": 1,
-        "organName": "耳",
         "systemCode": "9",
-        "value": 0.010000,
+        "value": 0.003335,
         "itemDValue": 0.000000,
         "itemType": "ALERT",
         "detail": "耳"
@@ -4641,9 +4203,8 @@
       {
         "diseaseName": "黑色素细胞瘤",
         "riskLevel": 1,
-        "organName": "皮肤",
         "systemCode": "9",
-        "value": 0.010000,
+        "value": 0.003682,
         "itemDValue": 0.000000,
         "itemType": "ALERT",
         "detail": "耳、皮肤"
@@ -4651,9 +4212,8 @@
       {
         "diseaseName": "虹膜炎",
         "riskLevel": 1,
-        "organName": "眼",
         "systemCode": "9",
-        "value": 0.010000,
+        "value": 0.005156,
         "itemDValue": 0.000000,
         "itemType": "ALERT",
         "detail": "眼"
@@ -4661,9 +4221,8 @@
       {
         "diseaseName": "甲沟炎",
         "riskLevel": 1,
-        "organName": "皮肤",
         "systemCode": "9",
-        "value": 0.010000,
+        "value": 0.003226,
         "itemDValue": 0.000000,
         "itemType": "ALERT",
         "detail": "皮肤"
@@ -4671,9 +4230,8 @@
       {
         "diseaseName": "角膜炎",
         "riskLevel": 1,
-        "organName": "眼",
         "systemCode": "9",
-        "value": 0.010000,
+        "value": 0.003221,
         "itemDValue": 0.000000,
         "itemType": "ALERT",
         "detail": "眼"
@@ -4681,9 +4239,8 @@
       {
         "diseaseName": "淋巴管炎",
         "riskLevel": 1,
-        "organName": "耳",
         "systemCode": "9",
-        "value": 0.010000,
+        "value": 0.004970,
         "itemDValue": 0.000000,
         "itemType": "ALERT",
         "detail": "眼、耳、皮肤"
@@ -4691,9 +4248,8 @@
       {
         "diseaseName": "牛皮癣",
         "riskLevel": 1,
-        "organName": "皮肤",
         "systemCode": "9",
-        "value": 0.010000,
+        "value": 0.004340,
         "itemDValue": 0.000000,
         "itemType": "ALERT",
         "detail": "耳、皮肤"
@@ -4701,9 +4257,8 @@
       {
         "diseaseName": "疱疹",
         "riskLevel": 1,
-        "organName": "皮肤",
         "systemCode": "9",
-        "value": 0.010000,
+        "value": 0.004618,
         "itemDValue": 0.000000,
         "itemType": "ALERT",
         "detail": "皮肤"
@@ -4711,9 +4266,8 @@
       {
         "diseaseName": "皮肤病",
         "riskLevel": 1,
-        "organName": "耳",
         "systemCode": "9",
-        "value": 0.010000,
+        "value": 0.005244,
         "itemDValue": 0.000000,
         "itemType": "ALERT",
         "detail": "皮肤"
@@ -4721,9 +4275,8 @@
       {
         "diseaseName": "皮脂漏",
         "riskLevel": 1,
-        "organName": "皮肤",
         "systemCode": "9",
-        "value": 0.010000,
+        "value": 0.005434,
         "itemDValue": 0.000000,
         "itemType": "ALERT",
         "detail": "耳、皮肤"
@@ -4731,9 +4284,8 @@
       {
         "diseaseName": "腮腺炎",
         "riskLevel": 1,
-        "organName": "耳",
         "systemCode": "9",
-        "value": 0.010000,
+        "value": 0.002541,
         "itemDValue": 0.000000,
         "itemType": "ALERT",
         "detail": "耳"
@@ -4741,9 +4293,8 @@
       {
         "diseaseName": "神经痛",
         "riskLevel": 1,
-        "organName": "耳",
         "systemCode": "9",
-        "value": 0.010000,
+        "value": 0.003027,
         "itemDValue": 0.000000,
         "itemType": "ALERT",
         "detail": "耳"
@@ -4751,9 +4302,8 @@
       {
         "diseaseName": "神经性皮炎",
         "riskLevel": 1,
-        "organName": "耳",
         "systemCode": "9",
-        "value": 0.010000,
+        "value": 0.004241,
         "itemDValue": 0.000000,
         "itemType": "ALERT",
         "detail": "耳、皮肤"
@@ -4761,9 +4311,8 @@
       {
         "diseaseName": "湿疹",
         "riskLevel": 1,
-        "organName": "皮肤",
         "systemCode": "9",
-        "value": 0.010000,
+        "value": 0.003706,
         "itemDValue": 0.000000,
         "itemType": "ALERT",
         "detail": "耳、皮肤"
@@ -4771,9 +4320,8 @@
       {
         "diseaseName": "视神经炎",
         "riskLevel": 1,
-        "organName": "眼",
         "systemCode": "9",
-        "value": 0.010000,
+        "value": 0.003839,
         "itemDValue": 0.000000,
         "itemType": "ALERT",
         "detail": "眼"
@@ -4781,9 +4329,8 @@
       {
         "diseaseName": "视网膜剥离",
         "riskLevel": 1,
-        "organName": "眼",
         "systemCode": "9",
-        "value": 0.010000,
+        "value": 0.002569,
         "itemDValue": 0.000000,
         "itemType": "ALERT",
         "detail": "眼"
@@ -4791,9 +4338,8 @@
       {
         "diseaseName": "荨麻疹",
         "riskLevel": 1,
-        "organName": "皮肤",
         "systemCode": "9",
-        "value": 0.010000,
+        "value": 0.005257,
         "itemDValue": 0.000000,
         "itemType": "ALERT",
         "detail": "皮肤"
@@ -4801,9 +4347,8 @@
       {
         "diseaseName": "眼睑炎",
         "riskLevel": 1,
-        "organName": "眼",
         "systemCode": "9",
-        "value": 0.010000,
+        "value": 0.004637,
         "itemDValue": 0.000000,
         "itemType": "ALERT",
         "detail": "眼"
@@ -4811,9 +4356,8 @@
       {
         "diseaseName": "眼内压增加病变(青光眼)",
         "riskLevel": 1,
-        "organName": "眼",
         "systemCode": "9",
-        "value": 0.010000,
+        "value": 0.004555,
         "itemDValue": 0.000000,
         "itemType": "ALERT",
         "detail": "眼"
@@ -4823,7 +4367,6 @@
       {
         "diseaseName": "腹腔丛",
         "riskLevel": 1,
-        "organName": "脾脏",
         "systemCode": "10",
         "value": 0.010000,
         "itemDValue": 0.000000,
@@ -4832,8 +4375,7 @@
       },
       {
         "diseaseName": "腹腔淋巴结",
-        "riskLevel": 1,
-        "organName": "脾脏",
+        "riskLevel": 2,
         "systemCode": "10",
         "value": 0.090000,
         "itemDValue": 0.000000,
@@ -4843,7 +4385,6 @@
       {
         "diseaseName": "腹主动脉",
         "riskLevel": 1,
-        "organName": "脾脏",
         "systemCode": "10",
         "value": 0.042000,
         "itemDValue": 0.000000,
@@ -4853,7 +4394,6 @@
       {
         "diseaseName": "膈神经",
         "riskLevel": 1,
-        "organName": "脾脏",
         "systemCode": "10",
         "value": 0.010000,
         "itemDValue": 0.000000,
@@ -4863,7 +4403,6 @@
       {
         "diseaseName": "淋巴管",
         "riskLevel": 1,
-        "organName": "淋巴结",
         "systemCode": "10",
         "value": 0.018000,
         "itemDValue": 0.000000,
@@ -4873,7 +4412,6 @@
       {
         "diseaseName": "淋巴结",
         "riskLevel": 1,
-        "organName": "淋巴结",
         "systemCode": "10",
         "value": 0.020000,
         "itemDValue": 0.000000,
@@ -4883,7 +4421,6 @@
       {
         "diseaseName": "淋巴滤泡",
         "riskLevel": 1,
-        "organName": "淋巴结",
         "systemCode": "10",
         "value": 0.022000,
         "itemDValue": 0.000000,
@@ -4893,7 +4430,6 @@
       {
         "diseaseName": "门静脉",
         "riskLevel": 1,
-        "organName": "脾脏",
         "systemCode": "10",
         "value": 0.027000,
         "itemDValue": 0.000000,
@@ -4902,8 +4438,7 @@
       },
       {
         "diseaseName": "脾动脉",
-        "riskLevel": 1,
-        "organName": "脾脏",
+        "riskLevel": 2,
         "systemCode": "10",
         "value": 0.081000,
         "itemDValue": 0.000000,
@@ -4913,7 +4448,6 @@
       {
         "diseaseName": "脾静脉",
         "riskLevel": 1,
-        "organName": "脾脏",
         "systemCode": "10",
         "value": 0.024000,
         "itemDValue": 0.000000,
@@ -4923,7 +4457,6 @@
       {
         "diseaseName": "胰尾脾淋巴结",
         "riskLevel": 2,
-        "organName": "脾脏",
         "systemCode": "10",
         "value": 0.313000,
         "itemDValue": 0.000000,
@@ -4935,7 +4468,6 @@
       {
         "diseaseName": "腹腔动脉",
         "riskLevel": 1,
-        "organName": "胰岛",
         "systemCode": "11",
         "value": 0.019000,
         "itemDValue": 0.000000,
@@ -4944,8 +4476,7 @@
       },
       {
         "diseaseName": "腹主动脉",
-        "riskLevel": 1,
-        "organName": "肾上腺",
+        "riskLevel": 2,
         "systemCode": "11",
         "value": 0.051000,
         "itemDValue": 0.000000,
@@ -4954,8 +4485,7 @@
       },
       {
         "diseaseName": "甲状腺",
-        "riskLevel": 1,
-        "organName": "甲状腺",
+        "riskLevel": 2,
         "systemCode": "11",
         "value": 0.085000,
         "itemDValue": 0.000000,
@@ -4964,8 +4494,7 @@
       },
       {
         "diseaseName": "甲状腺上动脉",
-        "riskLevel": 1,
-        "organName": "甲状腺",
+        "riskLevel": 2,
         "systemCode": "11",
         "value": 0.050000,
         "itemDValue": 0.000000,
@@ -4975,7 +4504,6 @@
       {
         "diseaseName": "甲状腺下动脉",
         "riskLevel": 1,
-        "organName": "甲状腺",
         "systemCode": "11",
         "value": 0.042000,
         "itemDValue": 0.000000,
@@ -4985,7 +4513,6 @@
       {
         "diseaseName": "颈内静脉",
         "riskLevel": 1,
-        "organName": "甲状腺",
         "systemCode": "11",
         "value": 0.019000,
         "itemDValue": 0.000000,
@@ -4995,7 +4522,6 @@
       {
         "diseaseName": "门静脉",
         "riskLevel": 1,
-        "organName": "胰岛",
         "systemCode": "11",
         "value": 0.027000,
         "itemDValue": 0.000000,
@@ -5005,7 +4531,6 @@
       {
         "diseaseName": "脾动脉",
         "riskLevel": 1,
-        "organName": "胰岛",
         "systemCode": "11",
         "value": 0.017000,
         "itemDValue": 0.000000,
@@ -5015,7 +4540,6 @@
       {
         "diseaseName": "脾静脉",
         "riskLevel": 1,
-        "organName": "胰岛",
         "systemCode": "11",
         "value": 0.024000,
         "itemDValue": 0.000000,
@@ -5025,7 +4549,6 @@
       {
         "diseaseName": "髂总静脉",
         "riskLevel": 1,
-        "organName": "胰岛",
         "systemCode": "11",
         "value": 0.024000,
         "itemDValue": 0.000000,
@@ -5035,7 +4558,6 @@
       {
         "diseaseName": "腔静脉",
         "riskLevel": 1,
-        "organName": "肾上腺",
         "systemCode": "11",
         "value": 0.034000,
         "itemDValue": 0.000000,
@@ -5044,8 +4566,7 @@
       },
       {
         "diseaseName": "肾动脉",
-        "riskLevel": 1,
-        "organName": "肾上腺",
+        "riskLevel": 2,
         "systemCode": "11",
         "value": 0.130000,
         "itemDValue": 0.000000,
@@ -5055,7 +4576,6 @@
       {
         "diseaseName": "肾静脉",
         "riskLevel": 1,
-        "organName": "肾上腺",
         "systemCode": "11",
         "value": 0.026000,
         "itemDValue": 0.000000,
@@ -5065,7 +4585,6 @@
       {
         "diseaseName": "肾上腺",
         "riskLevel": 1,
-        "organName": "肾上腺",
         "systemCode": "11",
         "value": 0.034000,
         "itemDValue": 0.000000,
@@ -5075,7 +4594,6 @@
       {
         "diseaseName": "胃十二指肠动脉",
         "riskLevel": 1,
-        "organName": "胰岛",
         "systemCode": "11",
         "value": 0.017000,
         "itemDValue": 0.000000,
@@ -5085,7 +4603,6 @@
       {
         "diseaseName": "胃左动脉",
         "riskLevel": 1,
-        "organName": "胰岛",
         "systemCode": "11",
         "value": 0.017000,
         "itemDValue": 0.000000,
@@ -5095,7 +4612,6 @@
       {
         "diseaseName": "胰大动脉",
         "riskLevel": 1,
-        "organName": "胰岛",
         "systemCode": "11",
         "value": 0.017000,
         "itemDValue": 0.000000,
@@ -5105,7 +4621,6 @@
       {
         "diseaseName": "胰脏",
         "riskLevel": 3,
-        "organName": "胰岛",
         "systemCode": "11",
         "value": 1.097000,
         "itemDValue": 0.000000,
@@ -5115,61 +4630,73 @@
     ],
     "SYSTEM_FOCUS_3": [
       {
-        "diseaseName": "C反应蛋白",
-        "riskLevel": 4,
-        "organName": "脊椎",
+        "diseaseName": "类风湿关节炎",
+        "riskLevel": 3,
         "systemCode": "3",
-        "value": 0.000000,
+        "value": 0.516000,
         "itemDValue": 0.000000,
-        "itemType": "BIOCHEMISTRY",
-        "detail": "炎症、感染、心肌梗塞"
+        "itemType": "ALERT",
+        "detail": "骨骼、脊椎"
       },
       {
-        "diseaseName": "γ球蛋白",
-        "riskLevel": 4,
-        "organName": "骨骼",
+        "diseaseName": "多发性关节炎",
+        "riskLevel": 2,
         "systemCode": "3",
-        "value": 0.000000,
+        "value": 0.286000,
         "itemDValue": 0.000000,
-        "itemType": "BIOCHEMISTRY",
-        "detail": "感染、肾病、自身免疫性疾病"
+        "itemType": "ALERT",
+        "detail": "骨骼、脊椎"
       },
       {
-        "diseaseName": "白细胞",
-        "riskLevel": 4,
-        "organName": "脊椎",
+        "diseaseName": "放射病",
+        "riskLevel": 1,
         "systemCode": "3",
-        "value": 0.000000,
+        "value": 0.001240,
         "itemDValue": 0.000000,
-        "itemType": "BIOCHEMISTRY",
-        "detail": "感染、炎症、脾功能亢进、造血功能障碍"
+        "itemType": "ALERT",
+        "detail": "骨骼、脊椎"
       },
       {
-        "diseaseName": "胆固醇",
-        "riskLevel": 4,
-        "organName": "脊椎",
+        "diseaseName": "骨膜炎",
+        "riskLevel": 1,
         "systemCode": "3",
-        "value": 0.000000,
+        "value": 0.002065,
         "itemDValue": 0.000000,
-        "itemType": "BIOCHEMISTRY",
-        "detail": "高脂血症、冠心病、心脑血管病"
+        "itemType": "ALERT",
+        "detail": "骨骼、脊椎"
       },
       {
-        "diseaseName": "甘油三脂",
-        "riskLevel": 4,
-        "organName": "脊椎",
+        "diseaseName": "骨髓瘤",
+        "riskLevel": 1,
         "systemCode": "3",
-        "value": 0.000000,
+        "value": 0.001381,
         "itemDValue": 0.000000,
-        "itemType": "BIOCHEMISTRY",
-        "detail": "高脂血症、心脏病、肾病"
+        "itemType": "ALERT",
+        "detail": "骨骼、脊椎"
       }
     ],
     "SYSTEM_FOCUS_4": [
       {
+        "diseaseName": "心律失常",
+        "riskLevel": 3,
+        "systemCode": "4",
+        "value": 0.753000,
+        "itemDValue": 0.000000,
+        "itemType": "ALERT",
+        "detail": "心脏"
+      },
+      {
+        "diseaseName": "心脏病",
+        "riskLevel": 3,
+        "systemCode": "4",
+        "value": 0.623000,
+        "itemDValue": 0.000000,
+        "itemType": "ALERT",
+        "detail": "心脏"
+      },
+      {
         "diseaseName": "原发性高血压",
-        "riskLevel": 4,
-        "organName": "主动脉",
+        "riskLevel": 3,
         "systemCode": "4",
         "value": 1.057000,
         "itemDValue": 0.000000,
@@ -5177,207 +4704,122 @@
         "detail": "脑血管、心脏、周围动静脉、主动脉"
       },
       {
-        "diseaseName": "C反应蛋白",
-        "riskLevel": 4,
-        "organName": "主动脉",
+        "diseaseName": "类风湿性心脏炎",
+        "riskLevel": 2,
         "systemCode": "4",
-        "value": 0.000000,
+        "value": 0.091000,
         "itemDValue": 0.000000,
-        "itemType": "BIOCHEMISTRY",
-        "detail": "炎症、感染、心肌梗塞"
+        "itemType": "ALERT",
+        "detail": "心脏"
       },
       {
-        "diseaseName": "白细胞",
-        "riskLevel": 4,
-        "organName": "主动脉",
+        "diseaseName": "脑部循环不良",
+        "riskLevel": 2,
         "systemCode": "4",
-        "value": 0.000000,
+        "value": 0.405000,
         "itemDValue": 0.000000,
-        "itemType": "BIOCHEMISTRY",
-        "detail": "感染、炎症、脾功能亢进、造血功能障碍"
-      },
-      {
-        "diseaseName": "促甲状腺激素",
-        "riskLevel": 4,
-        "organName": "主动脉",
-        "systemCode": "4",
-        "value": 0.000000,
-        "itemDValue": 0.000000,
-        "itemType": "BIOCHEMISTRY",
-        "detail": "甲状腺功能亢进和减退"
-      },
-      {
-        "diseaseName": "促肾上腺皮质激素",
-        "riskLevel": 4,
-        "organName": "主动脉",
-        "systemCode": "4",
-        "value": 0.000000,
-        "itemDValue": 0.000000,
-        "itemType": "BIOCHEMISTRY",
-        "detail": "肾上腺功能减退和分泌亢进"
-      }
-    ],
-    "SYSTEM_FOCUS_5": [
-      {
-        "diseaseName": "白细胞",
-        "riskLevel": 4,
-        "organName": "胆囊",
-        "systemCode": "5",
-        "value": 0.000000,
-        "itemDValue": 0.000000,
-        "itemType": "BIOCHEMISTRY",
-        "detail": "感染、炎症、脾功能亢进、造血功能障碍"
-      },
-      {
-        "diseaseName": "单核细胞",
-        "riskLevel": 4,
-        "organName": "胆囊",
-        "systemCode": "5",
-        "value": -1.000000,
-        "itemDValue": 0.000000,
-        "itemType": "BIOCHEMISTRY",
-        "detail": "感染"
-      },
-      {
-        "diseaseName": "胆固醇",
-        "riskLevel": 4,
-        "organName": "胰腺",
-        "systemCode": "5",
-        "value": 0.000000,
-        "itemDValue": 0.000000,
-        "itemType": "BIOCHEMISTRY",
-        "detail": "高脂血症、冠心病、心脑血管病"
-      },
-      {
-        "diseaseName": "甘油三脂",
-        "riskLevel": 4,
-        "organName": "胰腺",
-        "systemCode": "5",
-        "value": 0.000000,
-        "itemDValue": 0.000000,
-        "itemType": "BIOCHEMISTRY",
-        "detail": "高脂血症、心脏病、肾病"
-      },
-      {
-        "diseaseName": "谷丙转氨酶",
-        "riskLevel": 4,
-        "organName": "肝",
-        "systemCode": "5",
-        "value": -1.000000,
-        "itemDValue": 0.000000,
-        "itemType": "BIOCHEMISTRY",
-        "detail": "肝胆疾病、心肌骨骼肌损伤"
+        "itemType": "ALERT",
+        "detail": "脑血管"
       }
     ],
     "SYSTEM_FOCUS_10": [
       {
-        "diseaseName": "C反应蛋白",
-        "riskLevel": 4,
-        "organName": "淋巴管",
+        "diseaseName": "单核细胞增多症",
+        "riskLevel": 1,
         "systemCode": "10",
-        "value": 0.000000,
+        "value": 0.005643,
         "itemDValue": 0.000000,
-        "itemType": "BIOCHEMISTRY",
-        "detail": "炎症、感染、心肌梗塞"
+        "itemType": "ALERT",
+        "detail": "黏膜相关淋巴组织、脾脏、淋巴结、淋巴管"
       },
       {
-        "diseaseName": "γ球蛋白",
-        "riskLevel": 4,
-        "organName": "淋巴管",
+        "diseaseName": "放射病",
+        "riskLevel": 1,
         "systemCode": "10",
-        "value": 0.000000,
+        "value": 0.002213,
         "itemDValue": 0.000000,
-        "itemType": "BIOCHEMISTRY",
-        "detail": "感染、肾病、自身免疫性疾病"
+        "itemType": "ALERT",
+        "detail": "黏膜相关淋巴组织、脾脏、淋巴结、淋巴管"
       },
       {
-        "diseaseName": "白细胞",
-        "riskLevel": 4,
-        "organName": "淋巴结",
+        "diseaseName": "高血脂症",
+        "riskLevel": 1,
         "systemCode": "10",
-        "value": 0.000000,
+        "value": 0.005127,
         "itemDValue": 0.000000,
-        "itemType": "BIOCHEMISTRY",
-        "detail": "感染、炎症、脾功能亢进、造血功能障碍"
+        "itemType": "ALERT",
+        "detail": "黏膜相关淋巴组织、脾脏、淋巴结"
       },
       {
-        "diseaseName": "单核细胞",
-        "riskLevel": 4,
-        "organName": "淋巴结",
+        "diseaseName": "骨髓瘤",
+        "riskLevel": 1,
         "systemCode": "10",
-        "value": 0.000000,
+        "value": 0.002350,
         "itemDValue": 0.000000,
-        "itemType": "BIOCHEMISTRY",
-        "detail": "感染"
+        "itemType": "ALERT",
+        "detail": "黏膜相关淋巴组织、脾脏、淋巴结"
       },
       {
-        "diseaseName": "分叶核中性粒细胞",
-        "riskLevel": 4,
-        "organName": "淋巴结",
+        "diseaseName": "红斑性狼疮",
+        "riskLevel": 1,
         "systemCode": "10",
-        "value": 0.000000,
+        "value": 0.004610,
         "itemDValue": 0.000000,
-        "itemType": "BIOCHEMISTRY",
-        "detail": "感染"
+        "itemType": "ALERT",
+        "detail": "黏膜相关淋巴组织、脾脏、淋巴结、淋巴管"
       }
     ],
-    "SYSTEM_FOCUS_6": [
+    "SYSTEM_FOCUS_5": [
       {
-        "diseaseName": "C反应蛋白",
-        "riskLevel": 4,
-        "organName": "脊神经",
-        "systemCode": "6",
-        "value": 0.000000,
+        "diseaseName": "肠道菌群失调",
+        "riskLevel": 3,
+        "systemCode": "5",
+        "value": 0.800000,
         "itemDValue": 0.000000,
-        "itemType": "BIOCHEMISTRY",
-        "detail": "炎症、感染、心肌梗塞"
+        "itemType": "ALERT",
+        "detail": "肠道"
       },
       {
-        "diseaseName": "γ球蛋白",
-        "riskLevel": 4,
-        "organName": "脊神经",
-        "systemCode": "6",
-        "value": 0.000000,
+        "diseaseName": "胆道感染",
+        "riskLevel": 3,
+        "systemCode": "5",
+        "value": 0.662000,
         "itemDValue": 0.000000,
-        "itemType": "BIOCHEMISTRY",
-        "detail": "感染、肾病、自身免疫性疾病"
+        "itemType": "ALERT",
+        "detail": "胆囊、肝"
       },
       {
-        "diseaseName": "白细胞",
-        "riskLevel": 4,
-        "organName": "外周神经",
-        "systemCode": "6",
-        "value": 0.000000,
+        "diseaseName": "结肠炎",
+        "riskLevel": 3,
+        "systemCode": "5",
+        "value": 0.662000,
         "itemDValue": 0.000000,
-        "itemType": "BIOCHEMISTRY",
-        "detail": "感染、炎症、脾功能亢进、造血功能障碍"
+        "itemType": "ALERT",
+        "detail": "肠道、直肠"
       },
       {
-        "diseaseName": "促甲状腺激素",
-        "riskLevel": 4,
-        "organName": "外周神经",
-        "systemCode": "6",
-        "value": 0.000000,
+        "diseaseName": "十二指肠炎",
+        "riskLevel": 3,
+        "systemCode": "5",
+        "value": 0.835000,
         "itemDValue": 0.000000,
-        "itemType": "BIOCHEMISTRY",
-        "detail": "甲状腺功能亢进和减退"
+        "itemType": "ALERT",
+        "detail": "胰腺、胃"
       },
       {
-        "diseaseName": "促肾上腺皮质激素",
-        "riskLevel": 4,
-        "organName": "脊神经",
-        "systemCode": "6",
-        "value": 0.000000,
+        "diseaseName": "肠息肉",
+        "riskLevel": 1,
+        "systemCode": "5",
+        "value": 0.001275,
         "itemDValue": 0.000000,
-        "itemType": "BIOCHEMISTRY",
-        "detail": "肾上腺功能减退和分泌亢进"
+        "itemType": "ALERT",
+        "detail": "肠道"
       }
     ],
     "SYSTEM_FOCUS_11": [
       {
         "diseaseName": "甲状腺功能减退",
         "riskLevel": 4,
-        "organName": "甲状腺",
         "systemCode": "11",
         "value": 1.184000,
         "itemDValue": 0.000000,
@@ -5386,8 +4828,7 @@
       },
       {
         "diseaseName": "胰岛素依赖型糖尿病",
-        "riskLevel": 4,
-        "organName": "胰岛",
+        "riskLevel": 3,
         "systemCode": "11",
         "value": 1.031000,
         "itemDValue": 0.000000,
@@ -5396,8 +4837,7 @@
       },
       {
         "diseaseName": "原发性高血压",
-        "riskLevel": 4,
-        "organName": "肾上腺",
+        "riskLevel": 3,
         "systemCode": "11",
         "value": 1.026000,
         "itemDValue": 0.000000,
@@ -5405,24 +4845,69 @@
         "detail": "肾上腺"
       },
       {
-        "diseaseName": "C反应蛋白",
-        "riskLevel": 4,
-        "organName": "胰岛",
+        "diseaseName": "动脉内膜炎",
+        "riskLevel": 1,
         "systemCode": "11",
-        "value": 1.000000,
+        "value": 0.003244,
         "itemDValue": 0.000000,
-        "itemType": "BIOCHEMISTRY",
-        "detail": "炎症、感染、心肌梗塞"
+        "itemType": "ALERT",
+        "detail": "肾上腺"
       },
       {
-        "diseaseName": "白细胞",
-        "riskLevel": 4,
-        "organName": "甲状腺",
+        "diseaseName": "放射病",
+        "riskLevel": 1,
         "systemCode": "11",
-        "value": 0.000000,
+        "value": 0.001974,
         "itemDValue": 0.000000,
-        "itemType": "BIOCHEMISTRY",
-        "detail": "感染、炎症、脾功能亢进、造血功能障碍"
+        "itemType": "ALERT",
+        "detail": "肾上腺、甲状腺"
+      }
+    ],
+    "SYSTEM_FOCUS_6": [
+      {
+        "diseaseName": "阿兹海默病",
+        "riskLevel": 1,
+        "systemCode": "6",
+        "value": 0.001388,
+        "itemDValue": 0.000000,
+        "itemType": "ALERT",
+        "detail": "脑"
+      },
+      {
+        "diseaseName": "肌萎缩",
+        "riskLevel": 1,
+        "systemCode": "6",
+        "value": 0.003235,
+        "itemDValue": 0.000000,
+        "itemType": "ALERT",
+        "detail": "脊神经"
+      },
+      {
+        "diseaseName": "脊髓瘤",
+        "riskLevel": 1,
+        "systemCode": "6",
+        "value": 0.002227,
+        "itemDValue": 0.000000,
+        "itemType": "ALERT",
+        "detail": "脊神经"
+      },
+      {
+        "diseaseName": "脊髓膜炎",
+        "riskLevel": 1,
+        "systemCode": "6",
+        "value": 0.003065,
+        "itemDValue": 0.000000,
+        "itemType": "ALERT",
+        "detail": "脊神经"
+      },
+      {
+        "diseaseName": "脊髓炎",
+        "riskLevel": 1,
+        "systemCode": "6",
+        "value": 0.004148,
+        "itemDValue": 0.000000,
+        "itemType": "ALERT",
+        "detail": "脊神经、外周神经"
       }
     ]
   }

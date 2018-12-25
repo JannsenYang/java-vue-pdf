@@ -1,15 +1,13 @@
-package com.jannsen.javahtmlpdf.vo;
+package com.jannsen.javavuepdf.vo;
 
-import com.jannsen.javahtmlpdf.vo.child.JzexamAdvicePrjGroupVo;
+import com.jannsen.javavuepdf.vo.child.JzexamAdvicePrjGroupVo;
 
-import java.io.Serializable;
-import java.util.Date;
 import java.util.List;
 
 /**
  * 真实的业务数据
  */
-public class Module1Page1Vo implements Serializable {
+public class Module2Page1Vo {
 
     private String id;
 

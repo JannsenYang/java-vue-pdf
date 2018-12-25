@@ -1,12 +1,12 @@
-package com.jannsen.javahtmlpdf.controller;
+package com.jannsen.javavuepdf.controller;
 
 
 import com.alibaba.fastjson.JSON;
-import com.jannsen.javahtmlpdf.utils.CommonUtils;
-import com.jannsen.javahtmlpdf.vo.Module1Page1Vo;
-import com.jannsen.javahtmlpdf.vo.Module1Page2Vo;
-import com.jannsen.javahtmlpdf.vo.Module2Page1Vo;
-import com.jannsen.javahtmlpdf.vo.Module2Page2Vo;
+import com.jannsen.javavuepdf.utils.CommonUtils;
+import com.jannsen.javavuepdf.vo.Module1Page1Vo;
+import com.jannsen.javavuepdf.vo.Module1Page2Vo;
+import com.jannsen.javavuepdf.vo.Module2Page1Vo;
+import com.jannsen.javavuepdf.vo.Module2Page2Vo;
 import org.springframework.web.bind.annotation.*;
 
 /**

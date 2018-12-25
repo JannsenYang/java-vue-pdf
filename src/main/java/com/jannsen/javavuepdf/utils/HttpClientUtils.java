@@ -1,4 +1,4 @@
-package com.jannsen.javahtmlpdf.utils;
+package com.jannsen.javavuepdf.utils;
 
 import com.alibaba.fastjson.JSON;
 import com.google.common.collect.Lists;

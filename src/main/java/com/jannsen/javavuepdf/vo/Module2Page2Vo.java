@@ -1,16 +1,15 @@
-package com.jannsen.javahtmlpdf.vo;
+package com.jannsen.javavuepdf.vo;
 
-import com.jannsen.javahtmlpdf.vo.child.DiseaseItem;
+import com.jannsen.javavuepdf.vo.child.DiseaseItem;
 
 import java.math.BigDecimal;
-import java.util.Date;
 import java.util.List;
 import java.util.Map;
 
 /**
  * 真实的业务数据
  */
-public class Module1Page2Vo {
+public class Module2Page2Vo {
 
     private String id;
 
