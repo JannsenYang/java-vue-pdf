@@ -21,7 +21,7 @@
         建议书生成日期：{{data.createdTime | formatDate("yyyy年MM月dd日")}}
       </div>
       <div class="box">
-        <div class="name">{{data.name}}</div>
+        <div class="name">{{data.name}}(参数ID：{{data.id}})</div>
         <div class="item">
           <span class="label">联系电话：</span>{{data.mobile}}
         </div>

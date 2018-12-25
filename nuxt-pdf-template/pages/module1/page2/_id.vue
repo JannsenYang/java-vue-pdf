@@ -39,7 +39,7 @@
       </div>
 
       <div class="box">
-        <div class="name">{{data.name}}</div>
+        <div class="name">{{data.name}}(参数ID：{{data.id}})</div>
         <div class="item">
           <span class="label">联系电话：</span><span class="value">{{data.mobile}}</span>
         </div>
