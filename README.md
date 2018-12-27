@@ -42,7 +42,7 @@
 ## 快速开始
 ***需要端口 8080 和 3000 ，请避免端口冲突***
 
-***linux或mac环境下需要将resources中的3个ttf字体放入到/home/fonts目录下*** 原因参考注意事项
+***linux 或 mac 环境下需要将 resources 中的3个ttf字体放入到 /home/fonts 目录下，具体原因参考注意事项***
 
 * 运行spring boot应用JavaVuePdfApplication
 
