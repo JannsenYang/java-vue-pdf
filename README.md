@@ -42,6 +42,8 @@
 ## 快速开始
 ***需要端口 8080 和 3000 ，请避免端口冲突***
 
+***linux或mac环境下需要将resources中的3个ttf字体放入到/home/fonts目录下*** 原因参考注意事项
+
 * 运行spring boot应用JavaVuePdfApplication
 
 * `$ cd nuxt-pdf-template`
@@ -80,6 +82,8 @@
 
 ## 注意事项
 与样式相关的事项大多都是由于itext解析并没有浏览器那么完美造成的，所以碰到布局问题不要怀疑你的代码，换一种写法总是能达到目的的
+
+* itext没有使用文件流读字体，在linux或unix中读不到jar包中的资源，这时候需要将字体挪到外部进行加载 ，在windows中直接读取resources下的无需修改
 
 * 不要使用像素单位，一定要使用绝对物理单位pt
 

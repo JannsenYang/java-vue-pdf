@@ -28,8 +28,6 @@ import java.util.regex.Pattern;
  */
 public class PdfUtils {
 
-    private static final String NUXT_BASE_URL = "http://localhost:3000";//pdf-template服务器地址
-
     private static final String BEGIN_TAG = "<div id=\"begin\"></div>";//pdf-template/layouts/default.vue中 <nuxt/>标签的前
     private static final String END_TAG = "<div id=\"end\"></div>";//pdf-template/layouts/default.vue中 <nuxt/>标签的后
 
@@ -41,22 +39,29 @@ public class PdfUtils {
     private static final List<String> NEED_END_TAG_LIST = Lists.newArrayList("img", "br", "hr", "input"); //需要闭合的标签
 
 
-    public static ResponseEntity<InputStreamResource> create(String path, String fileName, HttpServletResponse response) {
+    private static final List<String> FONT_LIST = Lists.newArrayList("SourceHanSansCN-Light.ttf", "SourceHanSansCN-Normal.ttf", "SourceHanSansCN-Bold.ttf");
+
+    private static ConverterProperties converterProperties;
+
+
+    public static ResponseEntity<InputStreamResource> create(String baseUrl, String fontPath, String path, String fileName, HttpServletResponse response) {
         try {
-            String html = HttpClientUtils.get(NUXT_BASE_URL + path);
-            html = transform(html);
+            String html = HttpClientUtils.get(baseUrl + path);
+            html = transform(baseUrl, html);
             File pdfFile = File.createTempFile("pdf", ".pdf");
-
-            ConverterProperties converterProperties = new ConverterProperties();
-
-            //设置字体 详情请参考官方文档：https://developers.itextpdf.com/content/itext-7-converting-html-pdf-pdfhtml/chapter-6-using-fonts-pdfhtml
-            //这里采用的是思源黑体 无版权争议
-            DefaultFontProvider defaultFontProvider = new DefaultFontProvider(false, false, false);
-            defaultFontProvider.addFont(FontProgramFactory.createFont(ResourceUtils.getFile(ResourceUtils.CLASSPATH_URL_PREFIX + "SourceHanSansCN-Light.ttf").getPath()));
-            defaultFontProvider.addFont(FontProgramFactory.createFont(ResourceUtils.getFile(ResourceUtils.CLASSPATH_URL_PREFIX + "SourceHanSansCN-Normal.ttf").getPath()));
-            defaultFontProvider.addFont(FontProgramFactory.createFont(ResourceUtils.getFile(ResourceUtils.CLASSPATH_URL_PREFIX + "SourceHanSansCN-Bold.ttf").getPath()));
-            converterProperties.setFontProvider(defaultFontProvider);
-
+            if (converterProperties == null) {
+                converterProperties = new ConverterProperties();
+                DefaultFontProvider defaultFontProvider = new DefaultFontProvider(false, false, false);
+                String basePath = ResourceUtils.CLASSPATH_URL_PREFIX;
+                String os = System.getProperty("os.name");
+                if (os.toLowerCase().contains("linux") || os.toLowerCase().contains("mac")) {
+                    basePath = fontPath + "/";
+                }
+                for (String font : FONT_LIST) {
+                    defaultFontProvider.addFont(FontProgramFactory.createFont(ResourceUtils.getFile(basePath + font).getPath()));
+                }
+                converterProperties.setFontProvider(defaultFontProvider);
+            }
             Document document = HtmlConverter.convertToDocument(html, new PdfWriter(pdfFile), converterProperties);
             //do something
             document.close();
@@ -81,7 +86,7 @@ public class PdfUtils {
      * @param html
      * @return
      */
-    private static String transform(String html) {
+    private static String transform(String baseUrl, String html) {
         StringBuilder sb = new StringBuilder();
         sb.append("<html>");
         sb.append("<head>");
@@ -142,7 +147,7 @@ public class PdfUtils {
         sb.append("</html>");
 
         //将html中图片资源的url改为绝对路径
-        html = sb.toString().replaceAll("<!---->", "").replaceAll("src=\"/_nuxt/", "src=\"" + NUXT_BASE_URL + "/_nuxt/");
+        html = sb.toString().replaceAll("<!---->", "").replaceAll("src=\"/_nuxt/", "src=\"" + baseUrl + "/_nuxt/");
         return html;
     }
 
