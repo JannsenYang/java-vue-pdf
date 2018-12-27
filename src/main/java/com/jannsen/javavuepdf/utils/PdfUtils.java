@@ -52,9 +52,9 @@ public class PdfUtils {
             //设置字体 详情请参考官方文档：https://developers.itextpdf.com/content/itext-7-converting-html-pdf-pdfhtml/chapter-6-using-fonts-pdfhtml
             //这里采用的是思源黑体 无版权争议
             DefaultFontProvider defaultFontProvider = new DefaultFontProvider(false, false, false);
-            defaultFontProvider.addFont(FontProgramFactory.createFont(ResourceUtils.getFile("SourceHanSansCN-Light.ttf").getPath()));
-            defaultFontProvider.addFont(FontProgramFactory.createFont(ResourceUtils.getFile("SourceHanSansCN-Normal.ttf").getPath()));
-            defaultFontProvider.addFont(FontProgramFactory.createFont(ResourceUtils.getFile("SourceHanSansCN-Bold.ttf").getPath()));
+            defaultFontProvider.addFont(FontProgramFactory.createFont(ResourceUtils.getFile(ResourceUtils.CLASSPATH_URL_PREFIX + "SourceHanSansCN-Light.ttf").getPath()));
+            defaultFontProvider.addFont(FontProgramFactory.createFont(ResourceUtils.getFile(ResourceUtils.CLASSPATH_URL_PREFIX + "SourceHanSansCN-Normal.ttf").getPath()));
+            defaultFontProvider.addFont(FontProgramFactory.createFont(ResourceUtils.getFile(ResourceUtils.CLASSPATH_URL_PREFIX + "SourceHanSansCN-Bold.ttf").getPath()));
             converterProperties.setFontProvider(defaultFontProvider);
 
             Document document = HtmlConverter.convertToDocument(html, new PdfWriter(pdfFile), converterProperties);
