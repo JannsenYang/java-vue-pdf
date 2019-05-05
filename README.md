@@ -1,5 +1,12 @@
 # java-vue-pdf
 
+## 注意
+此项目已废弃，有更好更快更便捷的解决方案
+
+移步https://github.com/JannsenYang/vue-create-pdf
+
+目前此项目demo正在完善中，已上传时序图
+
 ## 解决场景
 使用java生成动态数据的pdf文件
 
